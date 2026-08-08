@@ -1,0 +1,4 @@
+CVS/
+*.log
+*.pyc
+out/
