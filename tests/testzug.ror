@@ -1,0 +1,5041 @@
+#rorqual 7 "dgayr"
+
+;*** Ebene (41,17,Rorqual) in Greifen-Insel ***
+
+; + Landsitz der geladenen Gaeste [2] : Fort.
+
+Einheit 1169
+;Laidin, Botschafter aus Bondai (1169)
+;  Flags:
+;    erhaelt keine Unterstuetzung
+;    haelt Stellung
+;    kaempft hinten
+;    kaempft nicht
+;    offenbart Partei
+;  Rasse:
+;    1 Mensch  [MENS]
+;  Waren:
+;    170 Silber  [SILB]
+;    1 Kriegsschild  [KSCH]
+;    1 Pferd  [PFER]
+;    1 Speer  [SPEE]
+;  Talente:
+;    Infanterie [INFA] 6 (Elite,1 Xp)
+;    Segeln [SEGE] 5 (Meister)
+;    Speerkampf [SPKA] 9 (Meister)
+@;;;*Botschafter
+@lerne INFA
+erklaere 2032 alliiert
+erklaere 2145 alliiert
+erklaere 218 freundlich
+erklaere 553 freundlich
+erklaere 221 freundlich
+erklaere 728 freundlich
+erklaere 917 freundlich
+erklaere 967 freundlich
+erklaere 1003
+erklaere 1011
+erklaere 1008
+
+;*** Mordor, Ebene (35,29,Rorqual) in Caere ***
+
+; + Gebaeude [1] : Turm.
+
+Einheit 1836
+;Leibdiener der Talida (1836)
+;  Flags:
+;    haelt Stellung
+;    kaempft hinten
+;    kaempft nicht
+;    offenbart Partei
+;  Rasse:
+;    1 Anfuehrer  [ANFU]
+;  Waren:
+;  Talente: Keine
+
+;*** Mordor, Ebene (43,31,Rorqual) in Stugslett, dort liegt Carrock  [Stadt] ***
+
+Einheit 441
+;Schattenjaeger (441)
+;  Flags:
+;    haelt Stellung
+;    kaempft nicht
+;    offenbart Partei
+;    versorgt andere
+;  Rasse:
+;    100 Drakons  [DRAK]
+;  Waren:
+;    1000 Silber  [SILB]
+;    100 Pferde  [PFER]
+;    100 Speere  [SPEE]
+;  Talente:
+;    Kavallerie [KAVA] 4 (Veteran)
+;    Speerkampf [SPKA] 5 (Profi,1 Xp)
+;    Tarnung [TARN] 5 (Meister)
+
+Einheit 2188
+;Schattenjaeger (2188)
+;  Flags:
+;    haelt Stellung
+;    kaempft hinten
+;    kaempft nicht
+;    offenbart Partei
+;    versorgt andere
+;  Rasse:
+;    200 Drakons  [DRAK]
+;  Waren:
+;    6900 Silber  [SILB]
+;    200 Pferde  [PFER]
+;  Talente:
+;    Speerkampf [SPKA] 3 (Erfahren)
+;    Tarnung [TARN] 5 (Meister)
+@;;;
+
+;*** Ebene (30,36,Rorqual) in Gemarken von Imperial, dort liegt  Imperial, alte Hauptstadt der Welt [Stadt] ***
+
+; + Das Hexagon der Macht [12] : Zitadelle.
+
+Einheit 2573
+;Palastgarde (2573)
+;  Flags:
+;    haelt Stellung
+;    kaempft hinten
+;    offenbart Partei
+;  Rasse:
+;    100 Drakons  [DRAK]
+;  Waren:
+;    5888 Silber  [SILB]
+;    100 Adamantspeere  [ADSP]
+;    100 Adamantruestungen  [APAN]
+;    100 Kriegsschilde  [KSCH]
+;    100 Schlachtroesser  [SROS]
+;  Talente:
+;    Kavallerie [KAVA] 3 (Erfahren)
+;    Panzerung [PANZ] 4 (Veteran)
+;    Speerkampf [SPKA] 7 (Adept)
+@lerne PANZ
+
+Einheit 439
+;Hoefling (439)
+;  Flags:
+;    haelt Stellung
+;    kaempft hinten
+;    kaempft nicht
+;    offenbart Partei
+;    versorgt andere
+;  Rasse:
+;    1 Mensch  [MENS]
+;  Waren:
+;    53746 Silber  [SILB]
+;    300 Kriegsschilde  [KSCH]
+;    5 Pferde  [PFER]
+;  Talente: Keine
+@;;;
+gib 837 5120 SILB
+gib 860 5120 SILB
+gib 928 5120 SILB
+gib 1026 5120 SILB
+
+Einheit 837
+;Tharesh (837)
+;  Flags:
+;    haelt Stellung
+;    kaempft hinten
+;    kaempft nicht
+;    offenbart Partei
+;    versorgt andere
+;  Rasse:
+;    1 Anfuehrer  [ANFU]
+;  Waren:
+;    99880 Silber  [SILB]
+;    1 Bronzedrachen  [BDRA]
+;  Talente:
+;    Energie [ENER] 3 (Erfahren,2 Xp)
+;    Geist [GEIS] 3 (Erfahren)
+;    Materie [MATE] 3 (Erfahren,1 Xp)
+;    Kunde der Drachen [DKUN] 3 (Erfahren)
+;    Magische Heilung [MHEI] 3 (Erfahren)
+;    Kunde der Natur [NATU] 3 (Erfahren)
+;    Kunde der Voegel [VKUN] 3 (Erfahren)
+;    Wetterkunde [WETT] 3 (Erfahren)
+;  Kann lernen:
+;    Kunde der Artefakte [ARTE]
+;    Kunde der Daemonen [DAEM]
+;    Dimensionskunde [DIMK]
+;    Erdbeben [ERDB]
+;    Energieschild [ESLD]
+;    Fernsicht [FERN]
+;    Feuerball [FEUE]
+;    Gedankenlesen [GEDA]
+;    Kraftschild [KSLD]
+;    Mentalschild [MSLD]
+;    Nekromantie [NEKR]
+;    Phantasmen [PHAN]
+;    Sturm rufen [STRU]
+;    Wetter beruhigen [WEBE]
+;    Winde beherrschen [WIND]
+;    Wirbelsturm rufen [WIRU]
+;    Kunde der Woelfe [WKUN]
+@;Drachenbeschwörer
+@behalte alles SILB
+@zaubere DKUN
++1 reise nw n
+lerne TARN
+
+Einheit 860
+;Meshak (860)
+;  Flags:
+;    haelt Stellung
+;    kaempft hinten
+;    kaempft nicht
+;    offenbart Partei
+;    versorgt andere
+;  Rasse:
+;    1 Anfuehrer  [ANFU]
+;  Waren:
+;    99880 Silber  [SILB]
+;    1 Bronzedrachen  [BDRA]
+;  Talente:
+;    Energie [ENER] 3 (Erfahren,2 Xp)
+;    Geist [GEIS] 3 (Erfahren)
+;    Materie [MATE] 3 (Erfahren,2 Xp)
+;    Kunde der Drachen [DKUN] 3 (Erfahren)
+;    Fernsicht [FERN] 1 (Anfaenger,2 Xp)
+;    Magische Heilung [MHEI] 3 (Erfahren,2 Xp)
+;    Kunde der Natur [NATU] 3 (Erfahren)
+;    Kunde der Voegel [VKUN] 3 (Erfahren)
+;    Wetterkunde [WETT] 3 (Erfahren)
+;  Kann lernen:
+;    Kunde der Artefakte [ARTE]
+;    Kunde der Daemonen [DAEM]
+;    Dimensionskunde [DIMK]
+;    Erdbeben [ERDB]
+;    Energieschild [ESLD]
+;    Fernsicht [FERN]
+;    Feuerball [FEUE]
+;    Gedankenlesen [GEDA]
+;    Kraftschild [KSLD]
+;    Mentalschild [MSLD]
+;    Nekromantie [NEKR]
+;    Phantasmen [PHAN]
+;    Sturm rufen [STRU]
+;    Wetter beruhigen [WEBE]
+;    Winde beherrschen [WIND]
+;    Wirbelsturm rufen [WIRU]
+;    Kunde der Woelfe [WKUN]
+@;Drachenbeschwörer
+@behalte alles SILB
+@zaubere DKUN
++1 reise nw n
+lerne TARN
+
+Einheit 928
+;Zimnar (928)
+;  Flags:
+;    haelt Stellung
+;    kaempft hinten
+;    kaempft nicht
+;    offenbart Partei
+;    versorgt andere
+;  Rasse:
+;    1 Anfuehrer  [ANFU]
+;  Waren:
+;    49880 Silber  [SILB]
+;    2 Bronzedrachen  [BDRA]
+;  Talente:
+;    Energie [ENER] 3 (Erfahren,2 Xp)
+;    Geist [GEIS] 3 (Erfahren)
+;    Materie [MATE] 3 (Erfahren,1 Xp)
+;    Kunde der Drachen [DKUN] 3 (Erfahren,1 Xp)
+;    Magische Heilung [MHEI] 3 (Erfahren,1 Xp)
+;    Kunde der Natur [NATU] 3 (Erfahren)
+;    Kunde der Voegel [VKUN] 3 (Erfahren)
+;    Wetterkunde [WETT] 3 (Erfahren)
+;  Kann lernen:
+;    Kunde der Artefakte [ARTE]
+;    Kunde der Daemonen [DAEM]
+;    Dimensionskunde [DIMK]
+;    Erdbeben [ERDB]
+;    Energieschild [ESLD]
+;    Fernsicht [FERN]
+;    Feuerball [FEUE]
+;    Gedankenlesen [GEDA]
+;    Kraftschild [KSLD]
+;    Mentalschild [MSLD]
+;    Nekromantie [NEKR]
+;    Phantasmen [PHAN]
+;    Sturm rufen [STRU]
+;    Wetter beruhigen [WEBE]
+;    Winde beherrschen [WIND]
+;    Wirbelsturm rufen [WIRU]
+;    Kunde der Woelfe [WKUN]
+@;Drachenbeschwörer
+@behalte alles SILB
+@zaubere DKUN 
++1 reise nw n
+lerne TARN
+
+Einheit 1026
+;Azrandas (1026)
+;  Flags:
+;    haelt Stellung
+;    kaempft hinten
+;    kaempft nicht
+;    offenbart Partei
+;    versorgt andere
+;  Rasse:
+;    1 Anfuehrer  [ANFU]
+;  Waren:
+;    99880 Silber  [SILB]
+;    1 Bronzedrachen  [BDRA]
+;  Talente:
+;    Energie [ENER] 3 (Erfahren,3 Xp)
+;    Geist [GEIS] 3 (Erfahren,1 Xp)
+;    Materie [MATE] 3 (Erfahren,1 Xp)
+;    Kunde der Drachen [DKUN] 3 (Erfahren)
+;    Magische Heilung [MHEI] 3 (Erfahren,2 Xp)
+;    Kunde der Natur [NATU] 3 (Erfahren)
+;    Kunde der Voegel [VKUN] 3 (Erfahren,2 Xp)
+;    Wetterkunde [WETT] 2 (Ausgebildet,4 Xp)
+;  Kann lernen:
+;    Kunde der Artefakte [ARTE]
+;    Kunde der Daemonen [DAEM]
+;    Dimensionskunde [DIMK]
+;    Erdbeben [ERDB]
+;    Energieschild [ESLD]
+;    Fernsicht [FERN]
+;    Feuerball [FEUE]
+;    Gedankenlesen [GEDA]
+;    Kraftschild [KSLD]
+;    Mentalschild [MSLD]
+;    Nekromantie [NEKR]
+;    Phantasmen [PHAN]
+;    Sturm rufen [STRU]
+;    Wetter beruhigen [WEBE]
+;    Wetterkunde [WETT]
+;    Winde beherrschen [WIND]
+;    Kunde der Woelfe [WKUN]
+@;Drachenbeschwörer
+@behalte alles SILB
+@zaubere DKUN
++1 reise nw n
+lerne TARN
+
+Einheit 5596
+;Gandar, der Weise (5596)
+;  Flags:
+;    haelt Stellung
+;    kaempft hinten
+;    offenbart Partei
+;    versorgt andere
+;  Rasse:
+;    1 Anfuehrer  [ANFU]
+;  Waren:
+;    1 Pegasus  [PEGA]
+;  Talente:
+;    Energie [ENER] 5 (Meister)
+;    Geist [GEIS] 5 (Meister)
+;    Materie [MATE] 5 (Meister)
+;    Kunde der Artefakte [ARTE] 1 (Anfaenger,3 Xp)
+;    Blitze werfen [BLWE] 3 (Erfahren,2 Xp)
+;    Dimensionskunde [DIMK] 3 (Erfahren)
+;    Fernsicht [FERN] 3 (Erfahren)
+;    Feuerball [FEUE] 3 (Erfahren)
+;    Instabiles Weltentor erschaffen [IWER] 2 (Meister)
+;    Magische Heilung [MHEI] 2 (Ausgebildet)
+;    Kunde der Natur [NATU] 2 (Ausgebildet,1 Xp)
+;    Portalkunde [PORT] 1 (Anfaenger,2 Xp)
+;    Teleportation [TELE] 3 (Erfahren)
+;    Kunde der Voegel [VKUN] 2 (Ausgebildet)
+;    Wahrnehmung [WAHR] 2 (Ausgebildet,1 Xp)
+;    Wetterkunde [WETT] 5 (Meister)
+;    Winde beherrschen [WIND] 1 (Anfaenger,3 Xp)
+;  Kann lernen:
+;    Kunde der Artefakte [ARTE]
+;    Blitze werfen [BLWE]
+;    Kunde der Daemonen [DAEM]
+;    Dimensionskunde [DIMK]
+;    Erdbeben [ERDB]
+;    Energieschild [ESLD]
+;    Fernsicht [FERN]
+;    Feuerball [FEUE]
+;    Gedankenlesen [GEDA]
+;    Kraftschild [KSLD]
+;    Magische Heilung [MHEI]
+;    Mentalschild [MSLD]
+;    Kunde der Natur [NATU]
+;    Nekromantie [NEKR]
+;    Phantasmen [PHAN]
+;    Portalkunde [PORT]
+;    Ruestungen verzaubern [RVER]
+;    Sturm rufen [STRU]
+;    Wetter beruhigen [WEBE]
+;    Winde beherrschen [WIND]
+;    Wirbelsturm rufen [WIRU]
+;    Kunde der Woelfe [WKUN]
+;    Waffen verzaubern [WVER]
+@;ZAUBERE TELEPORTATION REGION 48 28 -1
+@;ZAUBERE FERN REGION 57 45
+@behalte alles SILB
+;einschiffen PARTEI 8 NEU 100
+gib 439 1 PEGA
+lerne TARN
+
+Einheit 328
+;Tzaz, der Dunkle (328)
+;  Flags:
+;    haelt Stellung
+;    kaempft hinten
+;    kaempft nicht
+;    offenbart Partei
+;    versorgt andere
+;  Rasse:
+;    1 Anfuehrer  [ANFU]
+;  Waren:
+;    29996 Silber  [SILB]
+;    1 Fliegender Teppich  [FLTE]
+;  Talente:
+;    Energie [ENER] 3 (Erfahren,1 Xp)
+;    Geist [GEIS] 3 (Erfahren)
+;    Materie [MATE] 4 (Veteran,1 Xp)
+;    Dimensionskunde [DIMK] 3 (Erfahren,1 Xp)
+;    Energieschild [ESLD] 3 (Erfahren)
+;    Fernsicht [FERN] 3 (Erfahren,2 Xp)
+;    Portalkunde [PORT] 3 (Erfahren,1 Xp)
+;    Teleportation [TELE] 2 (Ausgebildet,3 Xp)
+;    Wetterkunde [WETT] 3 (Erfahren)
+;    Winde beherrschen [WIND] 3 (Erfahren)
+;    Wirbelsturm rufen [WIRU] 3 (Erfahren)
+;  Kann lernen:
+;    Kunde der Artefakte [ARTE]
+;    Kunde der Daemonen [DAEM]
+;    Erdbeben [ERDB]
+;    Feuerball [FEUE]
+;    Gedankenlesen [GEDA]
+;    Instabiles Weltentor erschaffen [IWER]
+;    Kraftschild [KSLD]
+;    Magische Heilung [MHEI]
+;    Mentalschild [MSLD]
+;    Kunde der Natur [NATU]
+;    Nekromantie [NEKR]
+;    Phantasmen [PHAN]
+;    Sturm rufen [STRU]
+;    Teleportation [TELE]
+;    Wetter beruhigen [WEBE]
+@;ZAUBERE Dimensionskunde DIMENSIONSTOR 18 EINHEITEN 328
+@;ZAUBERE FERN REGION 55 45
+@behalte alles SILB
+einschiffen PARTEI 8 NEU 100
+kampfzauber ESLD
+lerne TARN
+gib  5596 10000 SILB
+
+;*** Rhaba el-Khaliye, Wueste (39,39,Rorqual) in Bocholt, dort liegt  Corwen, Perle der Wüste und Hauptstadt des Kalifats der Mahan mi  Is'h'lah [Stadt] ***
+
+Einheit 2933
+;Handelsbeauftragter aus Bondai (2933)
+;  Flags:
+;    haelt Stellung
+;    kaempft hinten
+;    kaempft nicht
+;    offenbart Partei
+;    versorgt andere
+;  Rasse:
+;    1 Mensch  [MENS]
+;  Waren:
+;    90 Silber  [SILB]
+;    1 Pferd  [PFER]
+;    100 Steine  [STEI]
+;  Talente: Keine
+@;;;*Bote
+gib 2085 100 STEIN
+reise so so s s
+
+Einheit 2085
+;Karavane (2085)
+;  Flags:
+;    haelt Stellung
+;    kaempft hinten
+;    kaempft nicht
+;    offenbart Partei
+;  Rasse:
+;    1 Mensch  [MENS]
+;  Waren:
+;    90 Silber  [SILB]
+;    251 Pferde  [PFER]
+;  Talente: Keine
+@behalte 251 Pfer
+reise so so s s
+
+;*** Ebene (43,39,Rorqual) in Sandwick ***
+
+Einheit 112
+;Karavane (112)
+;  Flags:
+;    haelt Stellung
+;    kaempft hinten
+;    offenbart Partei
+;    versorgt andere
+;  Rasse:
+;    1 Mensch  [MENS]
+;  Waren:
+;    90 Silber  [SILB]
+;    3 Mithrilaexte  [MAXT]
+;    251 Pferde  [PFER]
+;    250 Weine  [WEIN]
+;  Talente:
+;    Kavallerie [KAVA] 2 (Ausgebildet)
+;    Schwertkampf [SWKA] 7 (Adept,1 Xp)
+@; Elbenschlachthof (45,35)
+@behalte 251 PFER
+reise n no no
+
+;*** Ebene (42,42,Rorqual) in Sandwick ***
+
+Einheit 2201
+;Tageloehner (2201)
+;  Flags:
+;    haelt Stellung
+;    kaempft hinten
+;    kaempft nicht
+;    offenbart Partei
+;    versorgt andere
+;  Rasse:
+;    400 Drakons  [DRAK]
+;  Waren:
+;    23189 Silber  [SILB]
+;    1 Kampfechse  [ECHS]
+;    600 Vieh  [VIEH]
+;  Talente: Keine
+@;;;*Tagelöhner
+@arbeite
+
+Einheit 1461
+;Maard (1461)
+;  Flags:
+;    besteuert selbststaendig
+;    haelt Stellung
+;    kaempft hinten
+;    kaempft nicht
+;    offenbart Partei
+;  Rasse:
+;    1 Anfuehrer  [ANFU]
+;  Waren:
+;    10 Silber  [SILB]
+;    1 Pferd  [PFER]
+;    1 Schwert  [SCHW]
+;  Talente:
+;    Armbrustschiessen [ARMB] 6 (Spezialist)
+;    Schwertkampf [SWKA] 6 (Spezialist,3 Xp)
+;    Unterhaltung [UNTE] 2 (Ausgebildet,2 Xp)
+;    Wagenbau [WAGE] 5 (Meister)
+;    Wahrnehmung [WAHR] 5 (Meister)
+@;;;*Seher
+@behalte 1 PFER
+@lerne SWKA
+
+Einheit 5024
+;Unterhalter (5024)
+;  Flags:
+;    besteuert selbststaendig
+;    haelt Stellung
+;    kaempft hinten
+;    kaempft nicht
+;    offenbart Partei
+;    versorgt andere
+;  Rasse:
+;    10 Menschen  [MENS]
+;  Waren:
+;    2190 Silber  [SILB]
+;    10 Boegen  [BOGE]
+;    10 Pferde  [PFER]
+;  Talente:
+;    Bogenschiessen [BOGE] 1 (Anfaenger)
+;    Unterhaltung [UNTE] 5 (Meister)
+@;;;*Unterhalter
+@UNTERHALTE
+@behalte 10 PFER
+
+Einheit 2449
+;Garnison (2449)
+;  Flags:
+;    auf Wache
+;    besteuert selbststaendig
+;    haelt Stellung
+;    kaempft hinten
+;    offenbart Partei
+;  Rasse:
+;    200 Drakons  [DRAK]
+;  Waren:
+;    6240 Silber  [SILB]
+;    200 Pferde  [PFER]
+;    200 Speere  [SPEE]
+;  Talente:
+;    Kavallerie [KAVA] 1 (Anfaenger)
+;    Panzerung [PANZ] 5 (Meister)
+;    Speerkampf [SPKA] 1 (Anfaenger,4 Xp)
+@behalte 20 PFER
+
+; + Gebaeude [1] : Viehbetrieb, Groesse 100/100.
+
+Einheit 3661
+;Bauern (3661)
+;  Flags:
+;    besteuert selbststaendig
+;    haelt Stellung
+;    kaempft hinten
+;    kaempft nicht
+;    offenbart Partei
+;  Rasse:
+;    15 Menschen  [MENS]
+;  Waren:
+;    768 Silber  [SILB]
+;    15 Boegen  [BOGE]
+;    15 Pferde  [PFER]
+;    150 Vieh  [VIEH]
+;  Talente:
+;    Bogenschiessen [BOGE] 1 (Anfaenger)
+;    Landwirtschaft [LAWI] 5 (Meister)
+@;;;*Bauern
+@PRODUZIERE VIEH
+@behalte 15 PFER
+
+; + Gebaeude [2] : Gestuet, Groesse 100/100.
+
+Einheit 582
+;Dresseure (582)
+;  Flags:
+;    besteuert selbststaendig
+;    haelt Stellung
+;    kaempft hinten
+;    kaempft nicht
+;    offenbart Partei
+;  Rasse:
+;    10 Drakons  [DRAK]
+;  Waren:
+;    512 Silber  [SILB]
+;    10 Boegen  [BOGE]
+;    228 Pferde  [PFER]
+;  Talente:
+;    Bogenschiessen [BOGE] 1 (Anfaenger)
+;    Dressur [DRES] 5 (Meister)
+@;;;*Dresseure
+@behalte 10 PFER
+@PRODUZIERE Pferde
+
+;*** Ebene (41,43,Rorqual) in Sandwick ***
+
+Einheit 10737
+;Tageloehner (10737)
+;  Flags:
+;    haelt Stellung
+;    kaempft hinten
+;    kaempft nicht
+;    offenbart Partei
+;    versorgt andere
+;  Rasse:
+;    400 Drakons  [DRAK]
+;  Waren:
+;    97532 Silber  [SILB]
+;    30 Armbrueste  [ARMB]
+;    400 Getreide  [GETR]
+;  Talente: Keine
+@;;;*Arbeiter
+@arbeite
+gib 1107 75000 SILB
+gib 1107 400 GETR
+gib 1107 30 ARMB
+
+Einheit 5734
+;Rolpix (5734)
+;  Flags:
+;    besteuert selbststaendig
+;    haelt Stellung
+;    kaempft hinten
+;    offenbart Partei
+;  Rasse:
+;    1 Anfuehrer  [ANFU]
+;  Waren:
+;    38 Silber  [SILB]
+;    1 Armbrust  [ARMB]
+;    1 Pferd  [PFER]
+;  Talente:
+;    Armbrustschiessen [ARMB] 9 (Meister)
+;    Wahrnehmung [WAHR] 5 (Meister)
+@;;;*Seher
+@behalte 1 PFER
+
+Einheit 22221
+;Unterhalter (22221)
+;  Flags:
+;    besteuert selbststaendig
+;    haelt Stellung
+;    kaempft hinten
+;    kaempft nicht
+;    offenbart Partei
+;  Rasse:
+;    20 Menschen  [MENS]
+;  Waren:
+;    3112 Silber  [SILB]
+;    20 Boegen  [BOGE]
+;    20 Pferde  [PFER]
+;  Talente:
+;    Bogenschiessen [BOGE] 1 (Anfaenger)
+;    Unterhaltung [UNTE] 5 (Meister)
+@unterhalte
+@behalte 20 PFER
+
+Einheit 1107
+;Karavane (1107)
+;  Flags:
+;    haelt Stellung
+;    kaempft hinten
+;    kaempft nicht
+;    offenbart Partei
+;  Rasse:
+;    1 Elb  [ELBE]
+;  Waren:
+;    300 Getreide  [GETR]
+;    776 Holz  [HOLZ]
+;    271 Pferde  [PFER]
+;  Talente: Keine
+@;;;Kapazität: 1000
+@behalte 251 PFER
+@; HOLZ Verteilen fuer Gaststätte
+@; PFER, GETR, VIEH abholen
+gib 10737 100 HOLZ
+reise no
+
+; + Gebaeude [1] : Turm.
+
+Einheit 2113
+;Garnison (2113)
+;  Flags:
+;    auf Wache
+;    besteuert selbststaendig
+;    haelt Stellung
+;    kaempft hinten
+;    offenbart Partei
+;  Rasse:
+;    200 Drakons  [DRAK]
+;  Waren:
+;    7936 Silber  [SILB]
+;    200 Pferde  [PFER]
+;    200 Speere  [SPEE]
+;  Talente:
+;    Kavallerie [KAVA] 1 (Anfaenger)
+;    Panzerung [PANZ] 5 (Meister)
+;    Speerkampf [SPKA] 1 (Anfaenger,4 Xp)
+@lerne SPKA
+@behalte 200 PFER
+
+; + Gebaeude [2] : Bauernhof, Groesse 100/100.
+
+Einheit 4238
+;Bauern (4238)
+;  Flags:
+;    besteuert selbststaendig
+;    haelt Stellung
+;    kaempft hinten
+;    offenbart Partei
+;    versorgt andere
+;  Rasse:
+;    10 Menschen  [MENS]
+;  Waren:
+;    596 Silber  [SILB]
+;    10 Boegen  [BOGE]
+;    100 Getreide  [GETR]
+;    10 Pferde  [PFER]
+;  Talente:
+;    Bogenschiessen [BOGE] 1 (Anfaenger)
+;    Landwirtschaft [LAWI] 5 (Meister)
+@;;;*Bauern
+@PRODUZIERE GETR
+@behalte 10 PFER
+gib 1107 100 GETR
+
+; + Gebaeude [3] : Gestuet, Groesse 100/100.
+
+Einheit 7143
+;Dresseure (7143)
+;  Flags:
+;    besteuert selbststaendig
+;    haelt Stellung
+;    offenbart Partei
+;    versorgt andere
+;  Rasse:
+;    10 Barbaren  [BARB]
+;  Waren:
+;    598 Silber  [SILB]
+;    219 Pferde  [PFER]
+;    10 Speere  [SPEE]
+;  Talente:
+;    Dressur [DRES] 5 (Meister)
+;    Speerkampf [SPKA] 2 (Ausgebildet,1 Xp)
+@;;;*Dresseure
+@behalte 10 PFER
+@produziere Pferde
+@behalte 10 PFER
+gib 1107 209 PFER
+
+;*** Wald (40,44,Rorqual) in Der verwunschene Wald ***
+
+Einheit 23732
+;Tageloehner (23732)
+;  Flags:
+;    haelt Stellung
+;    kaempft hinten
+;    kaempft nicht
+;    offenbart Partei
+;    versorgt andere
+;  Rasse:
+;    200 Menschen  [MENS]
+;  Waren:
+;    63185 Silber  [SILB]
+;    42 Felle  [FELL]
+;    156 Holz  [HOLZ]
+;    39 Lebenswurz  [LEWZ]
+;    496 Vieh  [VIEH]
+;  Talente: Keine
+@;;;*Tagelöhner
+@ARBEITE
+
+Einheit 22113
+;Seher (22113)
+;  Flags:
+;    besteuert selbststaendig
+;    haelt Stellung
+;    kaempft hinten
+;    kaempft nicht
+;    offenbart Partei
+;  Rasse:
+;    1 Anfuehrer  [ANFU]
+;  Waren:
+;    1 Armbrust  [ARMB]
+;  Talente:
+;    Armbrustschiessen [ARMB] 4 (Veteran)
+;    Wahrnehmung [WAHR] 5 (Meister)
+@;;;*Seher
+@lerne ARMB
+
+Einheit 18988
+;Unterhalter (18988)
+;  Flags:
+;    besteuert selbststaendig
+;    haelt Stellung
+;    kaempft nicht
+;    offenbart Partei
+;    versorgt andere
+;  Rasse:
+;    10 Menschen  [MENS]
+;  Waren:
+;    1595 Silber  [SILB]
+;    10 Armbrueste  [ARMB]
+;  Talente:
+;    Armbrustschiessen [ARMB] 1 (Anfaenger,2 Xp)
+;    Unterhaltung [UNTE] 5 (Meister)
+@;;;*Unterhalter
+@Unterhalte
+
+Einheit 23786
+;Jaeger (23786)
+;  Flags:
+;    auf Wache
+;    besteuert selbststaendig
+;    haelt Stellung
+;    kaempft hinten
+;    offenbart Partei
+;  Rasse:
+;    5 Menschen  [MENS]
+;  Waren:
+;    198 Silber  [SILB]
+;    5 Armbrueste  [ARMB]
+;    28 Felle  [FELL]
+;  Talente:
+;    Armbrustschiessen [ARMB] 2 (Ausgebildet)
+;    Jagen [JAGD] 5 (Meister)
+@;;;*Jäger
+@Produziere FELL
+
+Einheit 23780
+;Kraeutersammler (23780)
+;  Flags:
+;    auf Wache
+;    besteuert selbststaendig
+;    haelt Stellung
+;    kaempft hinten
+;    offenbart Partei
+;    versorgt andere
+;  Rasse:
+;    5 Menschen  [MENS]
+;  Waren:
+;    198 Silber  [SILB]
+;    5 Armbrueste  [ARMB]
+;    26 Lebenswurz  [LEWZ]
+;  Talente:
+;    Armbrustschiessen [ARMB] 1 (Anfaenger)
+;    Waldlaeufer [WALA] 5 (Meister)
+@;;;*Kräutersammler
+@Produziere LEWZ
+
+Einheit 3401
+;Garnison (3401)
+;  Flags:
+;    auf Wache
+;    besteuert selbststaendig
+;    haelt Stellung
+;    offenbart Partei
+;    versorgt andere
+;  Rasse:
+;    150 Drakons  [DRAK]
+;  Waren:
+;    2958 Silber  [SILB]
+;    150 Speere  [SPEE]
+;  Talente:
+;    Panzerung [PANZ] 3 (Erfahren,3 Xp)
+;    Speerkampf [SPKA] 1 (Anfaenger)
+@lerne PANZ
+
+Einheit 1204
+;Karavane (1204)
+;  Flags:
+;    haelt Stellung
+;    kaempft hinten
+;    kaempft nicht
+;    offenbart Partei
+;    versorgt andere
+;  Rasse:
+;    1 Mensch  [MENS]
+;  Waren:
+;    33 Armbrueste  [ARMB]
+;    30 Boegen  [BOGE]
+;    892 Pferde  [PFER]
+;  Talente:
+;    Kavallerie [KAVA] 2 (Ausgebildet)
+;    Segen des Morlok [MORL] 1 (Kleiner)
+;    Schwertkampf [SWKA] 7 (Adept,3 Xp)
+;    Unterhaltung [UNTE] 2 (Ausgebildet,4 Xp)
+@; 39,45: 208 PFER ; 2 ARMB
+@; 38,46: 31 ARMB; 30 BOGE; 232 PFER
+@behalte 251 PFER
+gib 5801 15 PFER
+gib 23396 15 PFER
+gib 23780 5 PFER
+gib 23786 5 PFER
+gib 18988 10 PFER
+gib 22113 1 PFER
+gib 3401 150 PFER
+reise sw
+
+; + Tareyah Rehabya [1] : Saegemuehle, Groesse 100/100.
+
+Einheit 5801
+;Holzfaeller (5801)
+;  Flags:
+;    besteuert selbststaendig
+;    haelt Stellung
+;    kaempft hinten
+;    kaempft nicht
+;    offenbart Partei
+;  Rasse:
+;    15 Menschen  [MENS]
+;  Waren:
+;    596 Silber  [SILB]
+;    15 Armbrueste  [ARMB]
+;    104 Holz  [HOLZ]
+;  Talente:
+;    Armbrustschiessen [ARMB] 1 (Anfaenger)
+;    Holzfaellen [HOLZ] 5 (Meister)
+@;;;*Holzfäller
+@Produziere Holz
+
+; + Gebaeude [2] : Viehbetrieb, Groesse 100/100.
+
+Einheit 23396
+;Bauern (23396)
+;  Flags:
+;    besteuert selbststaendig
+;    kaempft nicht
+;    offenbart Partei
+;    versorgt andere
+;  Rasse:
+;    15 Menschen  [MENS]
+;  Waren:
+;    596 Silber  [SILB]
+;    15 Armbrueste  [ARMB]
+;    124 Vieh  [VIEH]
+;  Talente:
+;    Armbrustschiessen [ARMB] 1 (Anfaenger)
+;    Landwirtschaft [LAWI] 5 (Meister)
+@;;;*Bauern
+@Produziere VIEH
+
+;*** Ebene (42,44,Rorqual) in Sandwick ***
+
+Einheit 1647
+;Tageloehner (1647)
+;  Flags:
+;    haelt Stellung
+;    kaempft hinten
+;    kaempft nicht
+;    offenbart Partei
+;    versorgt andere
+;  Rasse:
+;    400 Drakons  [DRAK]
+;  Waren:
+;    96698 Silber  [SILB]
+;    258 Vieh  [VIEH]
+;  Talente: Keine
+@;;;*Tagelöhner
+@arbeite
+
+Einheit 1462
+;Sentina (1462)
+;  Flags:
+;    besteuert selbststaendig
+;    haelt Stellung
+;    kaempft hinten
+;    kaempft nicht
+;    offenbart Partei
+;    versorgt andere
+;  Rasse:
+;    1 Anfuehrer  [ANFU]
+;  Waren:
+;    63 Silber  [SILB]
+;    1 Pferd  [PFER]
+;    1 Schwert  [SCHW]
+;  Talente:
+;    Heilen [HEIL] 5 (Meister)
+;    Schwertkampf [SWKA] 9 (Meister)
+;    Unterhaltung [UNTE] 5 (Meister)
+;    Wahrnehmung [WAHR] 5 (Meister)
+@;;;*Seher
+@arbeite
+@behalte 1 PFER
+
+Einheit 2815
+;Unterhalter (2815)
+;  Flags:
+;    besteuert selbststaendig
+;    haelt Stellung
+;    kaempft hinten
+;    kaempft nicht
+;    offenbart Partei
+;    versorgt andere
+;  Rasse:
+;    20 Menschen  [MENS]
+;  Waren:
+;    3552 Silber  [SILB]
+;    20 Armbrueste  [ARMB]
+;    20 Pferde  [PFER]
+;  Talente:
+;    Armbrustschiessen [ARMB] 1 (Anfaenger)
+;    Unterhaltung [UNTE] 5 (Meister)
+@;;;*Unterhalter
+@UNTERHALTE
+@behalte 20 PFER
+
+Einheit 2875
+;Dresseure (2875)
+;  Flags:
+;    besteuert selbststaendig
+;    haelt Stellung
+;    kaempft hinten
+;    kaempft nicht
+;    offenbart Partei
+;  Rasse:
+;    10 Menschen  [MENS]
+;  Waren:
+;    696 Silber  [SILB]
+;    10 Armbrueste  [ARMB]
+;    66 Pferde  [PFER]
+;  Talente:
+;    Armbrustschiessen [ARMB] 1 (Anfaenger)
+;    Dressur [DRES] 5 (Meister)
+@;;;*Dresseure
+@produziere Pferde
+@behalte 10 PFER
+
+Einheit 4511
+;Bauern (4511)
+;  Flags:
+;    besteuert selbststaendig
+;    haelt Stellung
+;    kaempft hinten
+;    kaempft nicht
+;    offenbart Partei
+;    versorgt andere
+;  Rasse:
+;    10 Menschen  [MENS]
+;  Waren:
+;    696 Silber  [SILB]
+;    10 Armbrueste  [ARMB]
+;    10 Pferde  [PFER]
+;    86 Vieh  [VIEH]
+;  Talente:
+;    Armbrustschiessen [ARMB] 1 (Anfaenger)
+;    Landwirtschaft [LAWI] 5 (Meister)
+@;;;*Bauern
+@PRODUZIERE VIEH
+@behalte 10 PFER
+
+Einheit 2864
+;Garnison (2864)
+;  Flags:
+;    auf Wache
+;    besteuert selbststaendig
+;    haelt Stellung
+;    kaempft hinten
+;    offenbart Partei
+;  Rasse:
+;    200 Drakons  [DRAK]
+;  Waren:
+;    9928 Silber  [SILB]
+;    200 Pferde  [PFER]
+;    200 Speere  [SPEE]
+;  Talente:
+;    Kavallerie [KAVA] 1 (Anfaenger)
+;    Panzerung [PANZ] 5 (Meister)
+;    Speerkampf [SPKA] 1 (Anfaenger,4 Xp)
+@behalte 200 PFER
+
+;*** Wald (39,45,Rorqual) in Der verwunschene Wald ***
+
+Einheit 1242
+;Tageloehner (1242)
+;  Flags:
+;    haelt Stellung
+;    kaempft hinten
+;    kaempft nicht
+;    offenbart Partei
+;    versorgt andere
+;  Rasse:
+;    300 Drakons  [DRAK]
+;  Waren:
+;    42011 Silber  [SILB]
+;    30 Felle  [FELL]
+;    144 Holz  [HOLZ]
+;    24 Lebenswurz  [LEWZ]
+;    240 Vieh  [VIEH]
+;  Talente: Keine
+@;;;*Tageloehner
+@arbeite
+
+Einheit 3001
+;Seher (3001)
+;  Flags:
+;    besteuert selbststaendig
+;    haelt Stellung
+;    kaempft hinten
+;    kaempft nicht
+;    offenbart Partei
+;  Rasse:
+;    1 Anfuehrer  [ANFU]
+;  Waren:
+;    19 Silber  [SILB]
+;    1 Armbrust  [ARMB]
+;    1 Pferd  [PFER]
+;  Talente:
+;    Armbrustschiessen [ARMB] 9 (Meister)
+;    Wahrnehmung [WAHR] 5 (Meister)
+@;;;*Seher
+
+Einheit 2688
+;Gaukler (2688)
+;  Flags:
+;    haelt Stellung
+;    kaempft hinten
+;    kaempft nicht
+;    offenbart Partei
+;  Rasse:
+;    10 Drakons  [DRAK]
+;  Waren:
+;    1200 Silber  [SILB]
+;    10 Armbrueste  [ARMB]
+;  Talente:
+;    Armbrustschiessen [ARMB] 1 (Anfaenger)
+;    Unterhaltung [UNTE] 5 (Meister)
+@;;;*Gaukler
+@Unterhalte
+
+Einheit 5578
+;Garnison (5578)
+;  Flags:
+;    auf Wache
+;    besteuert selbststaendig
+;    haelt Stellung
+;    offenbart Partei
+;    versorgt andere
+;  Rasse:
+;    150 Drakons  [DRAK]
+;  Waren:
+;    6335 Silber  [SILB]
+;    150 Speere  [SPEE]
+;  Talente:
+;    Panzerung [PANZ] 3 (Erfahren,1 Xp)
+;    Speerkampf [SPKA] 1 (Anfaenger,1 Xp)
+@lerne PANZ
+
+Einheit 1709
+;Bote (1709)
+;  Flags:
+;    erhaelt keine Unterstuetzung
+;    haelt Stellung
+;    kaempft hinten
+;    kaempft nicht
+;    offenbart Partei
+;  Rasse:
+;    3 Menschen  [MENS]
+;  Waren:
+;    3 Pegasi  [PEGA]
+;  Talente:
+;    Bogenschiessen [BOGE] 0 (Laie)
+;    Holzfaellen [HOLZ] 2 (Ausgebildet,4 Xp)
+;    Kavallerie [KAVA] 1 (Anfaenger)
+;    Schwertkampf [SWKA] 4 (Veteran,1 Xp)
+@behalte 1 PEGA
+@; 2 MENS fuer 39,45: Holzfaeller
+gib 17832 2 MENS
+reise so no
+
+; + Gebaeude [2] : Saegemuehle, Groesse 100/100.
+
+Einheit 17832
+;Holzfaeller (17832)
+;  Flags:
+;    besteuert selbststaendig
+;    haelt Stellung
+;    kaempft hinten
+;    offenbart Partei
+;    versorgt andere
+;  Rasse:
+;    23 Menschen  [MENS]
+;  Waren:
+;    876 Silber  [SILB]
+;    23 Armbrueste  [ARMB]
+;    144 Holz  [HOLZ]
+;  Talente:
+;    Armbrustschiessen [ARMB] 1 (Anfaenger,3 Xp)
+;    Holzfaellen [HOLZ] 5 (Meister)
+@;;;*Holzfäller
+@PRODUZIERE HOLZ
+
+Einheit 2686
+;Sucher (2686)
+;  Flags:
+;    besteuert selbststaendig
+;    haelt Stellung
+;    kaempft hinten
+;    offenbart Partei
+;  Rasse:
+;    3 Halblinge  [HALB]
+;  Waren:
+;    188 Silber  [SILB]
+;    3 Armbrueste  [ARMB]
+;    24 Lebenswurz  [LEWZ]
+;  Talente:
+;    Armbrustschiessen [ARMB] 1 (Anfaenger,1 Xp)
+;    Bogenschiessen [BOGE] 1 (Anfaenger)
+;    Waldlaeufer [WALA] 5 (Meister)
+@;;;*Kräutersammler
+@PRODUZIERE LEWZ
+
+Einheit 1919
+;Jaeger (1919)
+;  Flags:
+;    haelt Stellung
+;    kaempft hinten
+;    kaempft nicht
+;    offenbart Partei
+;  Rasse:
+;    10 Drakons  [DRAK]
+;  Waren:
+;    10 Armbrueste  [ARMB]
+;    30 Felle  [FELL]
+;  Talente:
+;    Armbrustschiessen [ARMB] 1 (Anfaenger)
+;    Jagen [JAGD] 5 (Meister)
+@;;;*Jäger
+@produziere FELL
+
+; + Gebaeude [3] : Viehbetrieb, Groesse 100/100.
+
+Einheit 1716
+;Bauern (1716)
+;  Flags:
+;    haelt Stellung
+;    kaempft hinten
+;    kaempft nicht
+;    offenbart Partei
+;  Rasse:
+;    10 Drakons  [DRAK]
+;  Waren:
+;    10 Armbrueste  [ARMB]
+;    80 Vieh  [VIEH]
+;  Talente:
+;    Armbrustschiessen [ARMB] 1 (Anfaenger)
+;    Landwirtschaft [LAWI] 4 (Veteran,4 Xp)
+@;;;*Bauern
+@produziere VIEH
+
+;*** Ebene (41,45,Rorqual) in Sandwick, dort liegt Chimmarron [Stadt]  ***
+
+Einheit 5562
+;Tageloehner (5562)
+;  Flags:
+;    haelt Stellung
+;    kaempft hinten
+;    kaempft nicht
+;    offenbart Partei
+;    versorgt andere
+;  Rasse:
+;    1500 Drakons  [DRAK]
+;  Waren:
+;    102461 Silber  [SILB]
+;    1 Adamantschwert  [ADSW]
+;    1270 Armbrueste  [ARMB]
+;    165 Aexte  [AXT]
+;    535 Balsam  [BALS]
+;    45 Baumwolle  [BAUW]
+;    43 Boegen  [BOGE]
+;    596 Ebenholz  [EBEN]
+;    82 Kampfechsen  [ECHS]
+;    246 Eisenholz  [EIHO]
+;    36 Eislaeufer  [EILA]
+;    618 Eisen  [EISE]
+;    4 Eisenspeere  [ESPE]
+;    522 Fische  [FISC]
+;    2149 Gewuerze  [GEWU]
+;    45 Holz  [HOLZ]
+;    159 Juwelen  [JUWE]
+;    90 Kamele  [KAML]
+;    1861 Kettenruestungen  [KETT]
+;    447 Kriegsschilde  [KSCH]
+;    242 Lebenswurz  [LEWZ]
+;    540 Myrrhe  [MYRH]
+;    1032 Parfuem  [PARF]
+;    88 Pegasi  [PEGA]
+;    182 Pferde  [PFER]
+;    6 Plattenpanzer  [PLAT]
+;    8 Rundschilde  [RSCH]
+;    75 Samt  [SAMT]
+;    122 Schwerter  [SCHW]
+;    386 Seide  [SEID]
+;    45 Schlingerhaeute  [SHAU]
+;    721 Speere  [SPEE]
+;    851 Statuen  [STAT]
+;    126 Steine  [STEI]
+;    1 Streitwagen  [STWA]
+;    206 Weihrauchkraeuter  [WEIH]
+;    2 Weine  [WEIN]
+;  Talente:
+;    Kavallerie [KAVA] 0 (Laie)
+;    Speerkampf [SPKA] 0 (Laie)
+@;;;*Tagelöhner
+@arbeite
+
+Einheit 289
+;Seher (289)
+;  Flags:
+;    kaempft nicht
+;    offenbart Partei
+;  Rasse:
+;    10 Drakons  [DRAK]
+;  Waren:
+;  Talente:
+;    Wahrnehmung [WAHR] 5 (Meister)
+
+Einheit 4561
+;Schmiede (4561)
+;  Flags:
+;    besteuert selbststaendig
+;    haelt Stellung
+;    kaempft hinten
+;    kaempft nicht
+;    offenbart Partei
+;    versorgt andere
+;  Rasse:
+;    150 Menschen  [MENS]
+;  Waren:
+;    796 Silber  [SILB]
+;    160 Armbrueste  [ARMB]
+;  Talente:
+;    Armbrustschiessen [ARMB] 1 (Anfaenger)
+;    Ruestungsbau [RUES] 1 (Anfaenger,2 Xp)
+;    Waffenschmied [WAFF] 4 (Veteran,3 Xp)
+;    Wagenbau [WAGE] 0 (Laie,2 Xp)
+@;;;*Waffenschmiede
+@behalte 150 ARMB
+
+Einheit 24671
+;Unterhalter (24671)
+;  Flags:
+;    besteuert selbststaendig
+;    haelt Stellung
+;    kaempft hinten
+;    kaempft nicht
+;    offenbart Partei
+;  Rasse:
+;    100 Drakons  [DRAK]
+;  Waren:
+;    6131 Silber  [SILB]
+;    100 Armbrueste  [ARMB]
+;  Talente:
+;    Armbrustschiessen [ARMB] 1 (Anfaenger,1 Xp)
+;    Unterhaltung [UNTE] 5 (Meister)
+@;;;*Unterhalter
+@UNTERHALTE
+@behalte 100 ARMB
+
+Einheit 824
+;Obsidianschmiede (824)
+;  Flags:
+;    besteuert selbststaendig
+;    kaempft hinten
+;    kaempft nicht
+;    offenbart Partei
+;    versorgt andere
+;  Rasse:
+;    100 Drakons  [DRAK]
+;  Waren:
+;    531 Silber  [SILB]
+;    100 Boegen  [BOGE]
+;  Talente:
+;    Bogenschiessen [BOGE] 1 (Anfaenger,2 Xp)
+;    Waffenschmied [WAFF] 5 (Meister)
+
+Einheit 4020
+;Horde von Bondai (4020)
+;  Flags:
+;    besteuert selbststaendig
+;    haelt Stellung
+;    offenbart Partei
+;    versorgt andere
+;  Rasse:
+;    500 Drakons  [DRAK]
+;  Waren:
+;    500 Obsidianspeere  [OBSP]
+;  Talente:
+;    Kavallerie [KAVA] 1 (Anfaenger,2 Xp)
+;    Panzerung [PANZ] 4 (Veteran,1 Xp)
+;    Speerkampf [SPKA] 4 (Veteran)
+@LERNE PANZ
+@behalte 500 PFER
+@behalte 500 OBSP
+
+Einheit 592
+;Wachen (592)
+;  Flags:
+;    auf Wache
+;    besteuert selbststaendig
+;    haelt Stellung
+;    kaempft hinten
+;    offenbart Partei
+;  Rasse:
+;    1000 Drakons  [DRAK]
+;  Waren:
+;    5313 Silber  [SILB]
+;    1000 Boegen  [BOGE]
+;  Talente:
+;    Bogenschiessen [BOGE] 5 (Profi,3 Xp)
+;    Kavallerie [KAVA] 2 (Ausgebildet)
+;    Panzerung [PANZ] 1 (Anfaenger)
+@;;;Ersatzwachen
+@behalte 1000 BOGE
+@;lerne BOGE
+
+Einheit 759
+;Pool (759)
+;  Flags:
+;    haelt Stellung
+;    kaempft hinten
+;    kaempft nicht
+;    offenbart Partei
+;  Rasse:
+;    1000 Drakons  [DRAK]
+;  Waren:
+;  Talente:
+;    Kavallerie [KAVA] 0 (Laie)
+;    Panzerung [PANZ] 2 (Ausgebildet,2 Xp)
+;    Speerkampf [SPKA] 0 (Laie)
+@;lerne PANZ
+
+Einheit 3794
+;Schattenjaeger (3794)
+;  Flags:
+;    haelt Stellung
+;    kaempft hinten
+;    kaempft nicht
+;    offenbart Partei
+;    versorgt andere
+;  Rasse:
+;    200 Drakons  [DRAK]
+;  Waren:
+;  Talente:
+;    Kavallerie [KAVA] 0 (Laie)
+;    Panzerung [PANZ] 1 (Anfaenger)
+;    Speerkampf [SPKA] 0 (Laie)
+;    Tarnung [TARN] 5 (Meister)
+@;fertig
+
+Einheit 1920
+;Horde (1920)
+;  Flags:
+;    besteuert selbststaendig
+;    haelt Stellung
+;    kaempft nicht
+;    offenbart Partei
+;    versorgt andere
+;  Rasse:
+;    1000 Drakons  [DRAK]
+;  Waren:
+;    5314 Silber  [SILB]
+;    1000 Aexte  [AXT]
+;    1000 Kettenruestungen  [KETT]
+;    1000 Pferde  [PFER]
+;  Talente:
+;    Axtkampf [AXKA] 4 (Veteran)
+;    Panzerung [PANZ] 4 (Veteran,4 Xp)
+@;;;Horde
+@behalte 1000 AXT
+@behalte 1000 PFER
+@behalte 1000 KETT
+@;LERNE PANZ
+
+Einheit 895
+;Horde von Bondai (895)
+;  Flags:
+;    besteuert selbststaendig
+;    offenbart Partei
+;    versorgt andere
+;  Rasse:
+;    460 Menschen  [MENS]
+;  Waren:
+;    2444 Silber  [SILB]
+;    460 Kettenruestungen  [KETT]
+;    460 Pferde  [PFER]
+;    460 Speere  [SPEE]
+;  Talente:
+;    Kavallerie [KAVA] 3 (Erfahren,1 Xp)
+;    Speerkampf [SPKA] 9 (Meister)
+@;lerne KAVA
+@behalte 460 SPEE
+@behalte 460 PFER
+@behalte 460 KETT
+
+Einheit 17806
+;Saegewerkbauer (17806)
+;  Flags:
+;    haelt Stellung
+;    kaempft hinten
+;    kaempft nicht
+;    offenbart Partei
+;    versorgt andere
+;  Rasse:
+;    133 Menschen  [MENS]
+;  Waren:
+;  Talente:
+;    Baumeister [BAUM] 1 (Anfaenger)
+;    Holzfaellen [HOLZ] 3 (Erfahren,2 Xp)
+@;;;*Tagelöhner
+@;ZBV SUMPF!!!
+@lerne BAUM
+
+Einheit 8747
+;Adepten (8747)
+;  Flags:
+;    haelt Stellung
+;    kaempft hinten
+;    kaempft nicht
+;    offenbart Partei
+;  Rasse:
+;    100 Drakons  [DRAK]
+;  Waren:
+;  Talente:
+;    Wahrnehmung [WAHR] 3 (Erfahren)
+@lerne WAHR
+
+Einheit 1526
+;Garnison (1526)
+;  Flags:
+;    haelt Stellung
+;    offenbart Partei
+;    versorgt andere
+;  Rasse:
+;    135 Drakons  [DRAK]
+;  Waren:
+;    135 Pferde  [PFER]
+;  Talente:
+;    Kavallerie [KAVA] 2 (Ausgebildet,3 Xp)
+;    Panzerung [PANZ] 5 (Meister)
+;    Speerkampf [SPKA] 8 (Elite)
+@;;;Armee
+@behalte 135 SPEE
+@behalte 135 PFER
+
+Einheit 626
+;Adepten (626)
+;  Flags:
+;    haelt Stellung
+;    kaempft hinten
+;    kaempft nicht
+;    offenbart Partei
+;  Rasse:
+;    100 Drakons  [DRAK]
+;  Waren:
+;  Talente:
+;    Wahrnehmung [WAHR] 4 (Veteran)
+@lerne WAHR
+
+Einheit 13225
+;Wachen (13225)
+;  Flags:
+;    besteuert selbststaendig
+;    haelt Stellung
+;    offenbart Partei
+;    versorgt andere
+;  Rasse:
+;    50 Drakons  [DRAK]
+;  Waren:
+;    265 Silber  [SILB]
+;    50 Pferde  [PFER]
+;    50 Speere  [SPEE]
+;  Talente:
+;    Kavallerie [KAVA] 6 (Elite)
+;    Panzerung [PANZ] 5 (Meister)
+;    Speerkampf [SPKA] 8 (Elite)
+@;;;
+@behalte 50 SPEE
+@behalte 50 PFER   
+
+Einheit 239
+;Wachen der Talida (239)
+;  Flags:
+;    besteuert selbststaendig
+;    haelt Stellung
+;    offenbart Partei
+;    versorgt andere
+;  Rasse:
+;    50 Drakons  [DRAK]
+;  Waren:
+;    265 Silber  [SILB]
+;    50 Aexte  [AXT]
+;    50 Kriegsschilde  [KSCH]
+;    50 Pferde  [PFER]
+;  Talente:
+;    Axtkampf [AXKA] 9 (Meister)
+;    Panzerung [PANZ] 3 (Erfahren,3 Xp)
+@;;;*Wachen
+@behalte 50 AXT
+@behalte 50 KSCH
+@behalte 50 Pferde
+
+Einheit 9526
+;Curuthors wilde Bande (9526)
+;  Flags:
+;    haelt Stellung
+;    kaempft hinten
+;    kaempft nicht
+;    offenbart Partei
+;  Rasse:
+;    17 Drakons  [DRAK]
+;  Waren:
+;    41 Pferde  [PFER]
+;  Talente:
+;    Bogenschiessen [BOGE] 8 (Elite)
+;    Panzerung [PANZ] 0 (Laie)
+;    Speerkampf [SPKA] 0 (Laie)
+
+Einheit 2746
+;Wachen der Talida (2746)
+;  Flags:
+;    besteuert selbststaendig
+;    haelt Stellung
+;    offenbart Partei
+;    versorgt andere
+;  Rasse:
+;    50 Drakons  [DRAK]
+;  Waren:
+;    1443 Silber  [SILB]
+;    50 Speere  [SPEE]
+;  Talente:
+;    Kavallerie [KAVA] 4 (Veteran,3 Xp)
+;    Panzerung [PANZ] 5 (Meister)
+;    Speerkampf [SPKA] 9 (Meister)
+@;;;*Wachen
+@behalte 50 SPEE
+@;lerne KAVA
+
+Einheit 3016
+;Sandal (3016)
+;  Flags:
+;    erhaelt keine Unterstuetzung
+;    haelt Stellung
+;    kaempft hinten
+;    kaempft nicht
+;    offenbart Partei
+;  Rasse:
+;    1 Anfuehrer  [ANFU]
+;  Waren:
+;    1 Pegasus  [PEGA]
+;  Talente:
+;    Jagen [JAGD] 5 (Meister)
+@behalte 1 PEGA
+
+; + Brunnen [1] : Brunnen.
+
+Einheit 4633
+;Lehrer der Talida (4633)
+;  Flags:
+;    besteuert selbststaendig
+;    haelt Stellung
+;    kaempft hinten
+;    offenbart Partei
+;    versorgt andere
+;  Rasse:
+;    25 Anfuehrer  [ANFU]
+;  Waren:
+;    25 Armbrueste  [ARMB]
+;  Talente:
+;    Armbrustschiessen [ARMB] 9 (Meister)
+;    Infanterie [INFA] 6 (Elite,4 Xp)
+;    Waffenschmied [WAFF] 2 (Ausgebildet)
+@;;;*L:ARMB
+@behalte alle ARMB
+@LERNE INFA
+
+Einheit 1358
+;Lehrer der Talida (1358)
+;  Flags:
+;    besteuert selbststaendig
+;    haelt Stellung
+;    kaempft hinten
+;    offenbart Partei
+;    versorgt andere
+;  Rasse:
+;    132 Anfuehrer  [ANFU]
+;  Waren:
+;    132 Speere  [SPEE]
+;  Talente:
+;    Kavallerie [KAVA] 3 (Erfahren,3 Xp)
+;    Speerkampf [SPKA] 8 (Elite)
+@;;;*L:WAHR,ARMB
+@behalte 132 SPEE
+
+Einheit 2593
+;Schattenjaeger (2593)
+;  Flags:
+;    haelt Stellung
+;    kaempft hinten
+;    kaempft nicht
+;    offenbart Partei
+;    versorgt andere
+;  Rasse:
+;    20 Anfuehrer  [ANFU]
+;  Waren:
+;  Talente:
+;    Tarnung [TARN] 5 (Meister)
+@;;;Tarner
+
+Einheit 1732
+;Lehrer der Talida (1732)
+;  Flags:
+;    haelt Stellung
+;    kaempft hinten
+;    kaempft nicht
+;    offenbart Partei
+;  Rasse:
+;    1 Anfuehrer  [ANFU]
+;  Waren:
+;    1 Pferd  [PFER]
+;  Talente:
+;    Ruestungsbau [RUES] 5 (Meister)
+;    Waffenschmied [WAFF] 5 (Meister)
+@;;;;Lehrer
+@behalte 1 Pferd
+@arbeite
+
+Einheit 3017
+;Lehrer der Talida (3017)
+;  Flags:
+;    haelt Stellung
+;    kaempft hinten
+;    kaempft nicht
+;    offenbart Partei
+;    versorgt andere
+;  Rasse:
+;    1 Anfuehrer  [ANFU]
+;  Waren:
+;    1 Pferd  [PFER]
+;  Talente:
+;    Wahrnehmung [WAHR] 5 (Meister)
+;    Waldlaeufer [WALA] 5 (Meister)
+@behalte 1 Pferd
+@Lehre 8747
+
+Einheit 2759
+;Lehrer der Talida (2759)
+;  Flags:
+;    haelt Stellung
+;    kaempft hinten
+;    kaempft nicht
+;    offenbart Partei
+;    versorgt andere
+;  Rasse:
+;    1 Anfuehrer  [ANFU]
+;  Waren:
+;    1 Pferd  [PFER]
+;  Talente:
+;    Schwertkampf [SWKA] 9 (Meister)
+@;;;Schwertkampflehrer
+@behalte 1 Pferd
+@arbeite
+
+Einheit 316
+;Lehrer der Talida (316)
+;  Flags:
+;    haelt Stellung
+;    kaempft hinten
+;    kaempft nicht
+;    offenbart Partei
+;  Rasse:
+;    10 Anfuehrer  [ANFU]
+;  Waren:
+;  Talente:
+;    Heilen [HEIL] 5 (Meister)
+@arbeite
+
+Einheit 10846
+;Talos (10846)
+;  Flags:
+;    haelt Stellung
+;    kaempft hinten
+;    kaempft nicht
+;    offenbart Partei
+;  Rasse:
+;    10 Anfuehrer  [ANFU]
+;  Waren:
+;  Talente:
+;    Wahrnehmung [WAHR] 5 (Meister)
+@;;;*Seher
+
+Einheit 449
+;Lehrer (449)
+;  Flags:
+;    haelt Stellung
+;    kaempft hinten
+;    kaempft nicht
+;    offenbart Partei
+;  Rasse:
+;    10 Anfuehrer  [ANFU]
+;  Waren:
+;    10 Pferde  [PFER]
+;  Talente:
+;    Bogenschiessen [BOGE] 2 (Ausgebildet,1 Xp)
+;    Wahrnehmung [WAHR] 5 (Meister)
+@behalte 10 BOGE
+@behalte 10 PFER
+@Lehre 626
+
+; + Vorratskammern [2] : Vorratskammer.
+
+Einheit 9670
+;Karavane (9670)
+;  Flags:
+;    haelt Stellung
+;    kaempft hinten
+;    kaempft nicht
+;    offenbart Partei
+;  Rasse:
+;    1 Drakon  [DRAK]
+;  Waren:
+;    251 Pferde  [PFER]
+;  Talente:
+;    Panzerung [PANZ] 1 (Anfaenger)
+@;;;Kapazität: 1000
+@behalte 251 Pfer
+
+Einheit 1199
+;Karavane (1199)
+;  Flags:
+;    haelt Stellung
+;    kaempft hinten
+;    kaempft nicht
+;    offenbart Partei
+;  Rasse:
+;    1 Barbar  [BARB]
+;  Waren:
+;    267 Gewuerze  [GEWU]
+;    203 Kettenruestungen  [KETT]
+;    261 Myrrhe  [MYRH]
+;    501 Pferde  [PFER]
+;    229 Rosen  [ROSE]
+;  Talente: Keine
+@;;;*Bote: EIHO Holen
+@behalte 501 PFER
+
+Einheit 2352
+;Karavane (2352)
+;  Flags:
+;    kaempft nicht
+;    offenbart Partei
+;  Rasse:
+;    1 Anfuehrer  [ANFU]
+;  Waren:
+;    29980 Silber  [SILB]
+;    52 Eisenholz  [EIHO]
+;    180 Getreide  [GETR]
+;    153 Lebenswurz  [LEWZ]
+;    251 Pferde  [PFER]
+;  Talente: Keine
+@behalte 251 Pferde
+
+; + Gebaeude [4] : Viehbetrieb, Groesse 100/100.
+
+Einheit 14897
+;Bauern (14897)
+;  Flags:
+;    besteuert selbststaendig
+;    haelt Stellung
+;    kaempft hinten
+;    offenbart Partei
+;    versorgt andere
+;  Rasse:
+;    30 Menschen  [MENS]
+;  Waren:
+;    160 Silber  [SILB]
+;    30 Armbrueste  [ARMB]
+;    276 Vieh  [VIEH]
+;  Talente:
+;    Armbrustschiessen [ARMB] 1 (Anfaenger)
+;    Landwirtschaft [LAWI] 5 (Meister)
+@;;;*Bauern
+@PRODUZIERE VIEH
+@Behalte 30 ARMB
+
+; + Gebaeude [5] : Gestuet, Groesse 100/100.
+
+Einheit 30748
+;Pferdezuechter (30748)
+;  Flags:
+;    besteuert selbststaendig
+;    haelt Stellung
+;    kaempft hinten
+;    offenbart Partei
+;  Rasse:
+;    5 Menschen  [MENS]
+;  Waren:
+;    27 Silber  [SILB]
+;    5 Armbrueste  [ARMB]
+;    50 Pferde  [PFER]
+;  Talente:
+;    Armbrustschiessen [ARMB] 1 (Anfaenger)
+;    Dressur [DRES] 5 (Meister)
+@;;;*Dresseure
+@Produziere Pferde
+@behalte 5 ARMB
+
+Einheit 1426
+;Pagasus-Zucht Chimmarron (1426)
+;  Flags:
+;    besteuert selbststaendig
+;    haelt Stellung
+;    kaempft hinten
+;    offenbart Partei
+;    versorgt andere
+;  Rasse:
+;    5 Menschen  [MENS]
+;  Waren:
+;    27 Silber  [SILB]
+;    5 Armbrueste  [ARMB]
+;    10 Pegasi  [PEGA]
+;  Talente:
+;    Armbrustschiessen [ARMB] 1 (Anfaenger)
+;    Dressur [DRES] 5 (Meister)
+@behalte 5 ARMB
+@;;;*Pegasuszüchter
+@PRODUZIERE PEGA
+
+;*** Wald (38,46,Rorqual) in Der verwunschene Wald ***
+
+Einheit 2328
+;Tageloehner (2328)
+;  Flags:
+;    haelt Stellung
+;    kaempft hinten
+;    kaempft nicht
+;    offenbart Partei
+;    versorgt andere
+;  Rasse:
+;    250 Drakons  [DRAK]
+;  Waren:
+;    6908 Silber  [SILB]
+;    72 Eisenholz  [EIHO]
+;    219 Felle  [FELL]
+;    390 Holz  [HOLZ]
+;    10 Kamele  [KAML]
+;    289 Lebenswurz  [LEWZ]
+;    744 Vieh  [VIEH]
+;  Talente: Keine
+@;;;*Tagelöhner
+@arbeite
+
+Einheit 1442
+;Seher (1442)
+;  Flags:
+;    besteuert selbststaendig
+;    haelt Stellung
+;    kaempft hinten
+;    kaempft nicht
+;    offenbart Partei
+;  Rasse:
+;    1 Anfuehrer  [ANFU]
+;  Waren:
+;    15 Silber  [SILB]
+;    1 Schwert  [SCHW]
+;  Talente:
+;    Schwertkampf [SWKA] 1 (Anfaenger)
+;    Wahrnehmung [WAHR] 5 (Meister)
+@;;;
+@arbeite
+
+Einheit 466
+;Unterhalter (466)
+;  Flags:
+;    auf Wache
+;    besteuert selbststaendig
+;    haelt Stellung
+;    kaempft hinten
+;    offenbart Partei
+;    versorgt andere
+;  Rasse:
+;    10 Drakons  [DRAK]
+;  Waren:
+;    533 Silber  [SILB]
+;    10 Speere  [SPEE]
+;  Talente:
+;    Infanterie [INFA] 2 (Ausgebildet,1 Xp)
+;    Speerkampf [SPKA] 4 (Veteran,1 Xp)
+;    Unterhaltung [UNTE] 4 (Veteran,2 Xp)
+@;;;*Unterhalter
+@unterhalte
+
+Einheit 4836
+;Garnison (4836)
+;  Flags:
+;    auf Wache
+;    besteuert selbststaendig
+;    haelt Stellung
+;    offenbart Partei
+;    versorgt andere
+;  Rasse:
+;    150 Drakons  [DRAK]
+;  Waren:
+;    1020 Silber  [SILB]
+;    150 Speere  [SPEE]
+;  Talente:
+;    Panzerung [PANZ] 3 (Erfahren,1 Xp)
+;    Speerkampf [SPKA] 1 (Anfaenger,1 Xp)
+@lerne PANZ
+
+; + Gebaeude [1] : Saegemuehle, Groesse 100/100.
+
+Einheit 2695
+;Holzfaeller (2695)
+;  Flags:
+;    haelt Stellung
+;    kaempft hinten
+;    kaempft nicht
+;    offenbart Partei
+;  Rasse:
+;    30 Drakons  [DRAK]
+;  Waren:
+;    156 Holz  [HOLZ]
+;  Talente:
+;    Bogenschiessen [BOGE] 1 (Anfaenger)
+;    Holzfaellen [HOLZ] 4 (Veteran,4 Xp)
+@;;;*Holzfäller
+@Produziere HOLZ
+
+Einheit 2440
+;Jaeger (2440)
+;  Flags:
+;    haelt Stellung
+;    kaempft hinten
+;    kaempft nicht
+;    offenbart Partei
+;  Rasse:
+;    10 Drakons  [DRAK]
+;  Waren:
+;    36 Felle  [FELL]
+;  Talente:
+;    Armbrustschiessen [ARMB] 1 (Anfaenger)
+;    Jagen [JAGD] 4 (Veteran,4 Xp)
+@;;;*Jäger
+@PRODUZIERE FELL
+
+Einheit 1609
+;Sammler (1609)
+;  Flags:
+;    haelt Stellung
+;    kaempft hinten
+;    kaempft nicht
+;    offenbart Partei
+;  Rasse:
+;    6 Drakons  [DRAK]
+;  Waren:
+;    34 Lebenswurz  [LEWZ]
+;  Talente:
+;    Armbrustschiessen [ARMB] 1 (Anfaenger)
+;    Waldlaeufer [WALA] 4 (Veteran,3 Xp)
+@;;;*Sammler
+@produziere LEWZ
+
+; + Gebaeude [2] : Viehbetrieb, Groesse 100/100.
+
+Einheit 1816
+;Bauern (1816)
+;  Flags:
+;    haelt Stellung
+;    kaempft hinten
+;    kaempft nicht
+;    offenbart Partei
+;  Rasse:
+;    15 Drakons  [DRAK]
+;  Waren:
+;    68 Vieh  [VIEH]
+;  Talente:
+;    Armbrustschiessen [ARMB] 1 (Anfaenger)
+;    Landwirtschaft [LAWI] 5 (Meister)
+@;;;*Bauern
+@produziere VIEH
+
+; + Gebaeude [3] : Eisenholzsaegewerk, Groesse 100/100.
+
+Einheit 1100
+;Eisenholzfaeller (1100)
+;  Flags:
+;    besteuert selbststaendig
+;    haelt Stellung
+;    kaempft hinten
+;    offenbart Partei
+;    versorgt andere
+;  Rasse:
+;    10 Menschen  [MENS]
+;  Waren:
+;    268 Silber  [SILB]
+;    10 Armbrueste  [ARMB]
+;    24 Eisenholz  [EIHO]
+;  Talente:
+;    Armbrustschiessen [ARMB] 1 (Anfaenger)
+;    Holzfaellen [HOLZ] 5 (Meister)
+@;;;*Holzfäller
+@PRODUZIERE EIHO
+
+;*** Sumpf (40,46,Rorqual) in Calpio, dort liegt Zhamorra [Kleinstadt]  ***
+
+Einheit 2150
+;Lagerverwalter (2150)
+;  Flags:
+;    haelt Stellung
+;    kaempft hinten
+;    kaempft nicht
+;    offenbart Partei
+;    versorgt andere
+;  Rasse:
+;    1000 Menschen  [MENS]
+;  Waren:
+;    9091 Silber  [SILB]
+;    10 Boegen  [BOGE]
+;    120 Eisenholz  [EIHO]
+;    200 Felle  [FELL]
+;    538 Holz  [HOLZ]
+;    251 Juwelen  [JUWE]
+;    245 Lebenswurz  [LEWZ]
+;    345 Pferde  [PFER]
+;    169 Speere  [SPEE]
+;  Talente: Keine
+@;;;*Lager
+@arbeite
+
+Einheit 521
+;Krautsammler (521)
+;  Flags:
+;    haelt Stellung
+;    kaempft hinten
+;    kaempft nicht
+;    offenbart Partei
+;  Rasse:
+;    10 Menschen  [MENS]
+;  Waren:
+;    10 Boegen  [BOGE]
+;    34 Lebenswurz  [LEWZ]
+;    10 Pferde  [PFER]
+;  Talente:
+;    Bogenschiessen [BOGE] 1 (Anfaenger)
+;    Waldlaeufer [WALA] 4 (Veteran,3 Xp)
+@;;;*Kräutersammler
+@behalte 10 PFER
+@behalte 10 BOGE
+@produziere lewz
+
+Einheit 1449
+;Garnison von Zhamorra (1449)
+;  Flags:
+;    auf Wache
+;    besteuert selbststaendig
+;    haelt Stellung
+;    kaempft hinten
+;    offenbart Partei
+;  Rasse:
+;    1000 Drakons  [DRAK]
+;  Waren:
+;    28723 Silber  [SILB]
+;    1000 Pferde  [PFER]
+;    1000 Speere  [SPEE]
+;  Talente:
+;    Kavallerie [KAVA] 1 (Anfaenger)
+;    Panzerung [PANZ] 4 (Veteran,3 Xp)
+;    Speerkampf [SPKA] 2 (Ausgebildet,3 Xp)
+@;;;
+@behalte alle PFER
+@behalte alle SPEE
+@LERNE PANZ
+
+Einheit 2610
+;Wachen der Talida (2610)
+;  Flags:
+;    haelt Stellung
+;    offenbart Partei
+;    versorgt andere
+;  Rasse:
+;    100 Drakons  [DRAK]
+;  Waren:
+;    100 Kamele  [KAML]
+;    100 Speere  [SPEE]
+;  Talente:
+;    Kavallerie [KAVA] 6 (Elite)
+;    Panzerung [PANZ] 5 (Meister)
+;    Speerkampf [SPKA] 9 (Meister)
+@;;;weg da
+@behalte 100 KAML
+@behalte 100 SPEE
+
+; + Vorratskammern [2] : Vorratskammer.
+
+Einheit 3789
+;Karavane (3789)
+;  Flags:
+;    kaempft nicht
+;    offenbart Partei
+;  Rasse:
+;    1 Mensch  [MENS]
+;  Waren:
+;    251 Pferde  [PFER]
+;  Talente: Keine
+@behalte 251 PFER
+
+Einheit 926
+;Karavane (926)
+;  Flags:
+;    kaempft nicht
+;    offenbart Partei
+;  Rasse:
+;    1 Mensch  [MENS]
+;  Waren:
+;    251 Pferde  [PFER]
+;    250 Schmuckstuecke  [SMUK]
+;  Talente: Keine
+@behalte 251 Pfer
+
+; + Gebaeude [5] : Saegemuehle, Groesse 100/100.
+
+Einheit 634
+;Holzfaeller (634)
+;  Flags:
+;    haelt Stellung
+;    kaempft hinten
+;    kaempft nicht
+;    offenbart Partei
+;  Rasse:
+;    10 Menschen  [MENS]
+;  Waren:
+;    10 Boegen  [BOGE]
+;    44 Holz  [HOLZ]
+;    10 Pferde  [PFER]
+;  Talente:
+;    Bogenschiessen [BOGE] 1 (Anfaenger)
+;    Holzfaellen [HOLZ] 4 (Veteran,4 Xp)
+@;;;*Holzfäller
+@behalte 10 BOGE
+@behalte 10 PFER
+@PRODUZIERE HOLZ
+
+; + Gebaeude [6] : Viehbetrieb, Groesse 100/100.
+
+Einheit 580
+;Viehtreiber (580)
+;  Flags:
+;    haelt Stellung
+;    kaempft hinten
+;    kaempft nicht
+;    offenbart Partei
+;  Rasse:
+;    10 Menschen  [MENS]
+;  Waren:
+;    10 Boegen  [BOGE]
+;    10 Pferde  [PFER]
+;    40 Vieh  [VIEH]
+;  Talente:
+;    Bogenschiessen [BOGE] 1 (Anfaenger)
+;    Landwirtschaft [LAWI] 5 (Meister)
+@;;;*Bauern
+@behalte 10 BOGE
+@behalte 10 PFER
+@PRODUZIERE VIEH
+
+; + Gebaeude [7] : Gaststaette, Groesse 100/100.
+
+Einheit 1159
+;Gaukler (1159)
+;  Flags:
+;    haelt Stellung
+;    kaempft hinten
+;    kaempft nicht
+;    offenbart Partei
+;    versorgt andere
+;  Rasse:
+;    80 Menschen  [MENS]
+;  Waren:
+;    12480 Silber  [SILB]
+;    80 Boegen  [BOGE]
+;  Talente:
+;    Bogenschiessen [BOGE] 1 (Anfaenger,2 Xp)
+;    Unterhaltung [UNTE] 5 (Meister)
+@;;;*Unterhalter
+@behalte 80 BOGE
+@Unterhalte
+
+;*** Ebene (42,46,Rorqual) in Sandwick, dort liegt Neu Abersoch  [Kleinstadt] ***
+
+Einheit 22712
+;Tageloehner (22712)
+;  Flags:
+;    haelt Stellung
+;    kaempft hinten
+;    kaempft nicht
+;    offenbart Partei
+;    versorgt andere
+;  Rasse:
+;    1200 Drakons  [DRAK]
+;  Waren:
+;    39262 Silber  [SILB]
+;    356 Aexte  [AXT]
+;    368 Balsam  [BALS]
+;    15 Boegen  [BOGE]
+;    376 Ebenholz  [EBEN]
+;    390 Gewuerze  [GEWU]
+;    272 Kriegsschilde  [KSCH]
+;    844 Lebenswurz  [LEWZ]
+;    1197 Pferde  [PFER]
+;    387 Samt  [SAMT]
+;    525 Seide  [SEID]
+;    133 Weine  [WEIN]
+;  Talente: Keine
+@;;;*Tagelöhner
+@ARBEITE 
+
+Einheit 390
+;Gaukler von Neu Abersoch (390)
+;  Flags:
+;    besteuert selbststaendig
+;    haelt Stellung
+;    kaempft hinten
+;    kaempft nicht
+;    offenbart Partei
+;    versorgt andere
+;  Rasse:
+;    100 Drakons  [DRAK]
+;  Waren:
+;    8814 Silber  [SILB]
+;    100 Armbrueste  [ARMB]
+;  Talente:
+;    Armbrustschiessen [ARMB] 1 (Anfaenger)
+;    Unterhaltung [UNTE] 4 (Veteran,3 Xp)
+@;;;*Gaukler
+@UNTERHALTE
+@behalte 100 ARMB
+
+Einheit 4127
+;Seher (4127)
+;  Flags:
+;    besteuert selbststaendig
+;    haelt Stellung
+;    kaempft hinten
+;    offenbart Partei
+;    versorgt andere
+;  Rasse:
+;    1 Anfuehrer  [ANFU]
+;  Waren:
+;    1 Armbrust  [ARMB]
+;  Talente:
+;    Armbrustschiessen [ARMB] 9 (Meister)
+;    Infanterie [INFA] 6 (Elite)
+;    Wahrnehmung [WAHR] 5 (Meister)
+@;;;*Seher
+@behalte 1 ARMB
+@lerne INFA
+
+Einheit 4917
+;Pool (4917)
+;  Flags:
+;    haelt Stellung
+;    kaempft hinten
+;    kaempft nicht
+;    offenbart Partei
+;  Rasse:
+;    1000 Drakons  [DRAK]
+;  Waren:
+;  Talente:
+;    Panzerung [PANZ] 5 (Meister)
+;    Speerkampf [SPKA] 1 (Anfaenger,4 Xp)
+@;;;Pool
+@;lerne SPKA
+
+Einheit 488
+;Horde (488)
+;  Flags:
+;    besteuert selbststaendig
+;    haelt Stellung
+;    offenbart Partei
+;    versorgt andere
+;  Rasse:
+;    1500 Drakons  [DRAK]
+;  Waren:
+;    1318 Silber  [SILB]
+;    1500 Kettenruestungen  [KETT]
+;    1500 Kriegsschilde  [KSCH]
+;    1500 Pferde  [PFER]
+;    1500 Speere  [SPEE]
+;  Talente:
+;    Kavallerie [KAVA] 2 (Ausgebildet)
+;    Panzerung [PANZ] 4 (Veteran,4 Xp)
+;    Speerkampf [SPKA] 7 (Adept,2 Xp)
+@behalte 1500 SPEE
+@behalte 1500 PFER
+@behalte 1500 KETT
+@behalte 1500 KSCH
+@;LERNE PANZ
+
+Einheit 408
+;Horde (408)
+;  Flags:
+;    besteuert selbststaendig
+;    haelt Stellung
+;    offenbart Partei
+;    versorgt andere
+;  Rasse:
+;    1200 Drakons  [DRAK]
+;  Waren:
+;    1055 Silber  [SILB]
+;    1200 Armbrueste  [ARMB]
+;    3985 Lebenswurz  [LEWZ]
+;    1200 Pferde  [PFER]
+;  Talente:
+;    Armbrustschiessen [ARMB] 6 (Spezialist,3 Xp)
+;    Heilen [HEIL] 3 (Erfahren,1 Xp)
+;    Kavallerie [KAVA] 0 (Laie,1 Xp)
+@;LERNE ARMB
+@behalte alles LEWZ
+
+Einheit 1151
+;Karavane (1151)
+;  Flags:
+;    haelt Stellung
+;    kaempft hinten
+;    kaempft nicht
+;    offenbart Partei
+;    versorgt andere
+;  Rasse:
+;    1 Mensch  [MENS]
+;  Waren:
+;    241 Pferde  [PFER]
+;    10 Speere  [SPEE]
+;    150 Vieh  [VIEH]
+;  Talente: Keine
+@behalte 251 PFER
+
+Einheit 1295
+;Karavane (1295)
+;  Flags:
+;    haelt Stellung
+;    kaempft hinten
+;    kaempft nicht
+;    offenbart Partei
+;    versorgt andere
+;  Rasse:
+;    1 Mensch  [MENS]
+;  Waren:
+;    50 Silber  [SILB]
+;    251 Pferde  [PFER]
+;  Talente: Keine
+@; Nach 38,48, Geld holen & so
+@behalte 251 PFER
+
+; + Brunnen [1] : Brunnen.
+
+Einheit 2756
+;Speerkampflehrer (2756)
+;  Flags:
+;    besteuert selbststaendig
+;    kaempft nicht
+;    offenbart Partei
+;    versorgt andere
+;  Rasse:
+;    100 Anfuehrer  [ANFU]
+;  Waren:
+;    100 Speere  [SPEE]
+;  Talente:
+;    Speerkampf [SPKA] 9 (Meister)
+@;lerne SPKA
+@behalte 100 SPEE
+
+Einheit 3134
+;Lehrer der Talida (3134)
+;  Flags:
+;    haelt Stellung
+;    kaempft hinten
+;    kaempft nicht
+;    offenbart Partei
+;  Rasse:
+;    3 Anfuehrer  [ANFU]
+;  Waren:
+;    3 Armbrueste  [ARMB]
+;    3 Pferde  [PFER]
+;  Talente:
+;    Armbrustschiessen [ARMB] 7 (Adept,2 Xp)
+;    Dressur [DRES] 5 (Meister)
+@behalte 3 Pferde
+@behalte 3 ARMB
+@arbeite
+
+Einheit 1401
+;Lehrer der Talida (1401)
+;  Flags:
+;    haelt Stellung
+;    kaempft hinten
+;    kaempft nicht
+;    offenbart Partei
+;  Rasse:
+;    10 Anfuehrer  [ANFU]
+;  Waren:
+;  Talente:
+;    Segeln [SEGE] 5 (Meister)
+
+; + Vorratskammern [2] : Vorratskammer.
+
+Einheit 2901
+;Karavane (2901)
+;  Flags:
+;    erhaelt keine Unterstuetzung
+;    haelt Stellung
+;    kaempft hinten
+;    kaempft nicht
+;    offenbart Partei
+;  Rasse:
+;    1 Mensch  [MENS]
+;  Waren:
+;    251 Pferde  [PFER]
+;  Talente: Keine
+@behalte 251 PFER
+
+Einheit 746
+;Karavane (746)
+;  Flags:
+;    erhaelt keine Unterstuetzung
+;    haelt Stellung
+;    kaempft hinten
+;    kaempft nicht
+;    offenbart Partei
+;    versorgt andere
+;  Rasse:
+;    1 Mensch  [MENS]
+;  Waren:
+;    251 Pferde  [PFER]
+;    750 Schmuckstuecke  [SMUK]
+;  Talente:
+;    Kavallerie [KAVA] 2 (Ausgebildet)
+;    Segen des Morlok [MORL] 1 (Kleiner)
+;    Schwertkampf [SWKA] 7 (Adept,3 Xp)
+;    Unterhaltung [UNTE] 2 (Ausgebildet,2 Xp)
+@;;;Karawane
+@behalte 251 PFER
+
+; + Gebaeude [4] : Zitadelle.
+
+Einheit 5792
+;Garnison (5792)
+;  Flags:
+;    auf Wache
+;    besteuert selbststaendig
+;    haelt Stellung
+;    offenbart Partei
+;  Rasse:
+;    1000 Drakons  [DRAK]
+;  Waren:
+;    1000 Pferde  [PFER]
+;    1000 Speere  [SPEE]
+;  Talente:
+;    Kavallerie [KAVA] 1 (Anfaenger)
+;    Panzerung [PANZ] 5 (Meister)
+;    Speerkampf [SPKA] 2 (Ausgebildet,1 Xp)
+@;;;
+@lerne SPKA
+@behalte 1000 SPEE
+@behalte 1000 PFER
+
+; + Gebaeude [5] : Turm.
+
+Einheit 1264
+;Schattenjaeger (1264)
+;  Flags:
+;    besteuert selbststaendig
+;    haelt Stellung
+;    offenbart Partei
+;    versorgt andere
+;  Rasse:
+;    70 Barbaren  [BARB]
+;  Waren:
+;    124 Silber  [SILB]
+;    70 Aexte  [AXT]
+;  Talente:
+;    Axtkampf [AXKA] 9 (Meister)
+;    Kavallerie [KAVA] 5 (Profi)
+;    Tarnung [TARN] 5 (Meister)
+@;;;*Wachen
+@behalte 70 AXT
+
+; + Gebaeude [6] : Bauernhof, Groesse 100/100.
+
+Einheit 1170
+;Bauer Jansen (1170)
+;  Flags:
+;    haelt Stellung
+;    kaempft hinten
+;    kaempft nicht
+;    offenbart Partei
+;    versorgt andere
+;  Rasse:
+;    15 Menschen  [MENS]
+;  Waren:
+;    150 Getreide  [GETR]
+;  Talente:
+;    Bogenschiessen [BOGE] 1 (Anfaenger)
+;    Landwirtschaft [LAWI] 5 (Meister)
+@;;;*Bauern
+@PRODUZIERE GETR
+
+; + Gebaeude [7] : Gestuet, Groesse 100/100.
+
+Einheit 4451
+;Dresseure (4451)
+;  Flags:
+;    haelt Stellung
+;    kaempft hinten
+;    kaempft nicht
+;    offenbart Partei
+;  Rasse:
+;    10 Drakons  [DRAK]
+;  Waren:
+;    80 Pferde  [PFER]
+;  Talente:
+;    Dressur [DRES] 4 (Veteran,3 Xp)
+@;;;
+@produziere PFER
+
+;*** Sumpf (39,47,Rorqual) in Calpio ***
+
+Einheit 4536
+;Tageloehner (4536)
+;  Flags:
+;    haelt Stellung
+;    kaempft hinten
+;    kaempft nicht
+;    offenbart Partei
+;    versorgt andere
+;  Rasse:
+;    120 Drakons  [DRAK]
+;  Waren:
+;    7004 Silber  [SILB]
+;    2 Armbrueste  [ARMB]
+;    11 Boegen  [BOGE]
+;    666 Getreide  [GETR]
+;    26 Holz  [HOLZ]
+;    6 Kettenruestungen  [KETT]
+;    12 Kriegsschilde  [KSCH]
+;    120 Lebenswurz  [LEWZ]
+;    1 Mithrilruestung  [MPAN]
+;    309 Schlingerhaeute  [SHAU]
+;    392 Speere  [SPEE]
+;    27 Schlachtroesser  [SROS]
+;    27 Verzauberte Schwerter  [ZSCH]
+;  Talente: Keine
+@;;;*Tagelöhner
+@; ARMB bleiben hier bis 15 voll, dann verteilen.
+@arbeite
+
+Einheit 485
+;Seher (485)
+;  Flags:
+;    besteuert selbststaendig
+;    haelt Stellung
+;    offenbart Partei
+;    versorgt andere
+;  Rasse:
+;    1 Mensch  [MENS]
+;  Waren:
+;    5 Silber  [SILB]
+;    1 Speer  [SPEE]
+;  Talente:
+;    Infanterie [INFA] 2 (Ausgebildet)
+;    Speerkampf [SPKA] 9 (Meister)
+;    Wahrnehmung [WAHR] 5 (Meister)
+@;;;*Seher
+
+Einheit 756
+;Sammler (756)
+;  Flags:
+;    haelt Stellung
+;    kaempft hinten
+;    kaempft nicht
+;    offenbart Partei
+;    versorgt andere
+;  Rasse:
+;    10 Drakons  [DRAK]
+;  Waren:
+;    10 Boegen  [BOGE]
+;    30 Lebenswurz  [LEWZ]
+;  Talente:
+;    Bogenschiessen [BOGE] 1 (Anfaenger)
+;    Waldlaeufer [WALA] 4 (Veteran)
+@;*Sammler
+@produziere LEWZ
+
+Einheit 775
+;Gaukler (775)
+;  Flags:
+;    haelt Stellung
+;    kaempft hinten
+;    kaempft nicht
+;    offenbart Partei
+;  Rasse:
+;    5 Menschen  [MENS]
+;  Waren:
+;    90 Silber  [SILB]
+;    5 Boegen  [BOGE]
+;    5 Pferde  [PFER]
+;  Talente:
+;    Bogenschiessen [BOGE] 1 (Anfaenger)
+;    Unterhaltung [UNTE] 5 (Meister)
+@;;;
+@unterhalte
+
+Einheit 3672
+;Garnision (3672)
+;  Flags:
+;    besteuert selbststaendig
+;    haelt Stellung
+;    kaempft nicht
+;    offenbart Partei
+;  Rasse:
+;    100 Drakons  [DRAK]
+;  Waren:
+;    100 Speere  [SPEE]
+;  Talente:
+;    Panzerung [PANZ] 3 (Erfahren)
+;    Speerkampf [SPKA] 1 (Anfaenger,4 Xp)
+@lerne PANZ
+benenne einheit "Garnison"
+
+Einheit 3537
+;Wachen (3537)
+;  Flags:
+;    besteuert selbststaendig
+;    haelt Stellung
+;    offenbart Partei
+;    versorgt andere
+;  Rasse:
+;    50 Drakons  [DRAK]
+;  Waren:
+;    1014 Silber  [SILB]
+;    26 Pferde  [PFER]
+;    50 Speere  [SPEE]
+;  Talente:
+;    Kavallerie [KAVA] 3 (Erfahren,1 Xp)
+;    Panzerung [PANZ] 5 (Meister)
+;    Speerkampf [SPKA] 9 (Meister)
+reise no
+
+; + Gebaeude [1] : Saegemuehle, Groesse 100/100.
+
+Einheit 9963
+;Holzfaeller (9963)
+;  Flags:
+;    haelt Stellung
+;    kaempft hinten
+;    kaempft nicht
+;    offenbart Partei
+;    versorgt andere
+;  Rasse:
+;    13 Barbaren  [BARB]
+;  Waren:
+;    13 Boegen  [BOGE]
+;    52 Holz  [HOLZ]
+;  Talente:
+;    Bogenschiessen [BOGE] 1 (Anfaenger)
+;    Holzfaellen [HOLZ] 4 (Veteran,1 Xp)
+@;;;*Holzfäller
+@PRODUZIERE HOLZ
+
+; + Gebaeude [2] : Bauernhof, Groesse 100/100.
+
+Einheit 857
+;Bauern (857)
+;  Flags:
+;    haelt Stellung
+;    kaempft hinten
+;    kaempft nicht
+;    offenbart Partei
+;  Rasse:
+;    10 Menschen  [MENS]
+;  Waren:
+;    10 Armbrueste  [ARMB]
+;    52 Getreide  [GETR]
+;    10 Pferde  [PFER]
+;  Talente:
+;    Armbrustschiessen [ARMB] 1 (Anfaenger)
+;    Landwirtschaft [LAWI] 5 (Meister)
+@Produziere GETR
+
+; + Gebaeude [3] : Schlingerhautgerberei, Groesse 100/100.
+
+Einheit 15921
+;Jaeger (15921)
+;  Flags:
+;    besteuert selbststaendig
+;    kaempft hinten
+;    offenbart Partei
+;  Rasse:
+;    5 Menschen  [MENS]
+;  Waren:
+;    91 Silber  [SILB]
+;    5 Armbrueste  [ARMB]
+;    30 Schlingerhaeute  [SHAU]
+;  Talente:
+;    Armbrustschiessen [ARMB] 4 (Veteran)
+;    Jagen [JAGD] 5 (Meister)
+@;;;*Jaeger (Schlingerhaut)
+@PRODUZIERE SHAU
+
+;*** Ebene (41,47,Rorqual) in Duucshire ***
+
+Einheit 489
+;Tageloehner (489)
+;  Flags:
+;    haelt Stellung
+;    kaempft hinten
+;    kaempft nicht
+;    offenbart Partei
+;    versorgt andere
+;  Rasse:
+;    400 Drakons  [DRAK]
+;  Waren:
+;    39999 Silber  [SILB]
+;    200 Getreide  [GETR]
+;    100 Holz  [HOLZ]
+;  Talente: Keine
+@;;;*Tagelöhner
+@;100 HOLZ fuer Gaststaette behalten
+@arbeite
+
+Einheit 1397
+;Seher (1397)
+;  Flags:
+;    auf Wache
+;    besteuert selbststaendig
+;    haelt Stellung
+;    kaempft hinten
+;    offenbart Partei
+;    versorgt andere
+;  Rasse:
+;    1 Anfuehrer  [ANFU]
+;  Waren:
+;    71 Silber  [SILB]
+;    1 Pferd  [PFER]
+;    1 Speer  [SPEE]
+;  Talente:
+;    Speerkampf [SPKA] 8 (Elite)
+;    Wahrnehmung [WAHR] 5 (Meister)
+@;;;*Seher
+@arbeite
+@behalte 1 PFER
+
+Einheit 278
+;Gaukler (278)
+;  Flags:
+;    haelt Stellung
+;    kaempft hinten
+;    kaempft nicht
+;    offenbart Partei
+;    versorgt andere
+;  Rasse:
+;    20 Drakons  [DRAK]
+;  Waren:
+;    1760 Silber  [SILB]
+;    20 Boegen  [BOGE]
+;    20 Pferde  [PFER]
+;  Talente:
+;    Bogenschiessen [BOGE] 1 (Anfaenger,1 Xp)
+;    Unterhaltung [UNTE] 5 (Meister)
+@;;;*Gaukler
+@UNTERHALTE
+@behalte 20 PFER
+
+Einheit 654
+;Garnison (654)
+;  Flags:
+;    auf Wache
+;    besteuert selbststaendig
+;    haelt Stellung
+;    kaempft hinten
+;    offenbart Partei
+;  Rasse:
+;    200 Drakons  [DRAK]
+;  Waren:
+;    10702 Silber  [SILB]
+;    200 Pferde  [PFER]
+;    200 Speere  [SPEE]
+;  Talente:
+;    Kavallerie [KAVA] 1 (Anfaenger)
+;    Panzerung [PANZ] 4 (Veteran,4 Xp)
+;    Speerkampf [SPKA] 1 (Anfaenger,4 Xp)
+@;;;
+@lerne PANZ
+@behalte 200 PFER
+
+; + Gebaeude [1] : Bauernhof, Groesse 100/100.
+
+Einheit 3709
+;Bauer Ben (3709)
+;  Flags:
+;    besteuert selbststaendig
+;    haelt Stellung
+;    kaempft hinten
+;    kaempft nicht
+;    offenbart Partei
+;  Rasse:
+;    20 Menschen  [MENS]
+;  Waren:
+;    1470 Silber  [SILB]
+;    20 Boegen  [BOGE]
+;    100 Getreide  [GETR]
+;    20 Pferde  [PFER]
+;  Talente:
+;    Bogenschiessen [BOGE] 1 (Anfaenger)
+;    Landwirtschaft [LAWI] 5 (Meister)
+@;;;;Bauer
+@produziere GETR
+@behalte 20 PFER
+
+; + Gebaeude [2] : Gestuet, Groesse 100/100.
+
+Einheit 7821
+;Dresseure (7821)
+;  Flags:
+;    besteuert selbststaendig
+;    haelt Stellung
+;    kaempft hinten
+;    kaempft nicht
+;    offenbart Partei
+;    versorgt andere
+;  Rasse:
+;    10 Menschen  [MENS]
+;  Waren:
+;    736 Silber  [SILB]
+;    10 Boegen  [BOGE]
+;    50 Pferde  [PFER]
+;  Talente:
+;    Bogenschiessen [BOGE] 1 (Anfaenger)
+;    Dressur [DRES] 5 (Meister)
+@;;;Dresseure
+@;produziere Pferde
+@PRODUZIERE PFER
+@behalte 10 PFER
+
+;*** Sumpf (38,48,Rorqual) in Calpio ***
+
+Einheit 437
+;Tageloehner (437)
+;  Flags:
+;    haelt Stellung
+;    kaempft hinten
+;    kaempft nicht
+;    offenbart Partei
+;    versorgt andere
+;  Rasse:
+;    140 Drakons  [DRAK]
+;  Waren:
+;    63666 Silber  [SILB]
+;    48 Holz  [HOLZ]
+;    506 Lebenswurz  [LEWZ]
+;    10 Speere  [SPEE]
+;    643 Vieh  [VIEH]
+;  Talente: Keine
+@arbeite
+
+Einheit 250
+;Seher (250)
+;  Flags:
+;    besteuert selbststaendig
+;    haelt Stellung
+;    kaempft hinten
+;    offenbart Partei
+;  Rasse:
+;    1 Mensch  [MENS]
+;  Waren:
+;    2 Silber  [SILB]
+;    1 Schwert  [SCHW]
+;  Talente:
+;    Schwertkampf [SWKA] 8 (Elite,3 Xp)
+;    Wahrnehmung [WAHR] 5 (Meister)
+@;;;
+@lerne SWKA
+
+Einheit 2596
+;Sammler (2596)
+;  Flags:
+;    besteuert selbststaendig
+;    haelt Stellung
+;    kaempft hinten
+;    kaempft nicht
+;    offenbart Partei
+;  Rasse:
+;    10 Menschen  [MENS]
+;  Waren:
+;    369 Silber  [SILB]
+;    10 Boegen  [BOGE]
+;    32 Lebenswurz  [LEWZ]
+;    10 Pferde  [PFER]
+;  Talente:
+;    Bogenschiessen [BOGE] 1 (Anfaenger)
+;    Waldlaeufer [WALA] 4 (Veteran,3 Xp)
+@;;;*Sammler
+@produziere LEWZ
+
+Einheit 3835
+;Garnision (3835)
+;  Flags:
+;    auf Wache
+;    besteuert selbststaendig
+;    haelt Stellung
+;    offenbart Partei
+;  Rasse:
+;    100 Drakons  [DRAK]
+;  Waren:
+;    206 Silber  [SILB]
+;    100 Speere  [SPEE]
+;  Talente:
+;    Panzerung [PANZ] 2 (Ausgebildet,3 Xp)
+;    Speerkampf [SPKA] 1 (Anfaenger,4 Xp)
+@lerne PANZ
+@behalte 100 SPEE
+benenne einheit "Garnison"
+
+; + Gebaeude [1] : Saegemuehle, Groesse 100/100.
+
+Einheit 771
+;Holzfaeller (771)
+;  Flags:
+;    besteuert selbststaendig
+;    haelt Stellung
+;    kaempft hinten
+;    kaempft nicht
+;    offenbart Partei
+;    versorgt andere
+;  Rasse:
+;    10 Menschen  [MENS]
+;  Waren:
+;    369 Silber  [SILB]
+;    10 Boegen  [BOGE]
+;    48 Holz  [HOLZ]
+;    10 Pferde  [PFER]
+;  Talente:
+;    Bogenschiessen [BOGE] 1 (Anfaenger)
+;    Holzfaellen [HOLZ] 5 (Meister)
+@produziere HOLZ
+
+; + Gebaeude [2] : Viehbetrieb, Groesse 100/100.
+
+Einheit 3059
+;Bauern (3059)
+;  Flags:
+;    besteuert selbststaendig
+;    haelt Stellung
+;    kaempft hinten
+;    kaempft nicht
+;    offenbart Partei
+;  Rasse:
+;    15 Menschen  [MENS]
+;  Waren:
+;    556 Silber  [SILB]
+;    15 Boegen  [BOGE]
+;    15 Pferde  [PFER]
+;    60 Vieh  [VIEH]
+;  Talente:
+;    Bogenschiessen [BOGE] 1 (Anfaenger)
+;    Landwirtschaft [LAWI] 5 (Meister)
+@;;;*Bauern
+@;produziere VIEH
+@PRODUZIERE VIEH 
+
+;*** Sumpf (40,48,Rorqual) in Calpio ***
+
+Einheit 6022
+;Tageloehner (6022)
+;  Flags:
+;    haelt Stellung
+;    kaempft hinten
+;    kaempft nicht
+;    offenbart Partei
+;    versorgt andere
+;  Rasse:
+;    170 Drakons  [DRAK]
+;  Waren:
+;    43876 Silber  [SILB]
+;    100 Holz  [HOLZ]
+;  Talente: Keine
+@;;; 
+@;;;Einwohnerstufe ist Maximum!
+@arbeite
+@behalte 100 HOLZ
+@;100 Hlz fuer Gaststaette
+
+Einheit 7878
+;Unterhalter (7878)
+;  Flags:
+;    haelt Stellung
+;    offenbart Partei
+;    versorgt andere
+;  Rasse:
+;    4 Menschen  [MENS]
+;  Waren:
+;    400 Silber  [SILB]
+;    1 Pferd  [PFER]
+;  Talente:
+;    Bogenschiessen [BOGE] 1 (Anfaenger)
+;    Unterhaltung [UNTE] 5 (Meister)
+@;;;*Gaukler
+@unterhalte
+
+Einheit 253
+;Sammler (253)
+;  Flags:
+;    haelt Stellung
+;    kaempft hinten
+;    kaempft nicht
+;    offenbart Partei
+;  Rasse:
+;    10 Menschen  [MENS]
+;  Waren:
+;    17 Lebenswurz  [LEWZ]
+;    10 Pferde  [PFER]
+;  Talente:
+;    Bogenschiessen [BOGE] 1 (Anfaenger)
+;    Waldlaeufer [WALA] 4 (Veteran,2 Xp)
+@;;;*Sammler
+@PRODUZIERE LEWZ
+
+Einheit 4860
+;Garnision (4860)
+;  Flags:
+;    besteuert selbststaendig
+;    haelt Stellung
+;    kaempft nicht
+;    offenbart Partei
+;  Rasse:
+;    100 Drakons  [DRAK]
+;  Waren:
+;    2500 Silber  [SILB]
+;    100 Pferde  [PFER]
+;    100 Speere  [SPEE]
+;  Talente:
+;    Panzerung [PANZ] 2 (Ausgebildet,4 Xp)
+;    Speerkampf [SPKA] 1 (Anfaenger,4 Xp)
+@lerne PANZ
+benenne einheit "Garnison"
+
+Einheit 2559
+;Wachen der Talida (2559)
+;  Flags:
+;    besteuert selbststaendig
+;    haelt Stellung
+;    offenbart Partei
+;    versorgt andere
+;  Rasse:
+;    50 Drakons  [DRAK]
+;  Waren:
+;    500 Silber  [SILB]
+;    14 Boegen  [BOGE]
+;    24 Pferde  [PFER]
+;    50 Speere  [SPEE]
+;  Talente:
+;    Kavallerie [KAVA] 3 (Erfahren)
+;    Panzerung [PANZ] 5 (Meister)
+;    Speerkampf [SPKA] 8 (Elite,3 Xp)
+;    Waffenschmied [WAFF] 1 (Anfaenger)
+@;Nach 41,45
+@behalte 50 pfer
+@behalte 50 spee
+reise no n
+
+Einheit 446
+;Wachen der Talida (446)
+;  Flags:
+;    besteuert selbststaendig
+;    haelt Stellung
+;    offenbart Partei
+;    versorgt andere
+;  Rasse:
+;    50 Drakons  [DRAK]
+;  Waren:
+;    500 Silber  [SILB]
+;    50 Speere  [SPEE]
+;  Talente:
+;    Kavallerie [KAVA] 6 (Elite)
+;    Panzerung [PANZ] 5 (Meister)
+;    Speerkampf [SPKA] 7 (Adept,3 Xp)
+@;Nach chmmarron
+reise no n
+
+; + Gebaeude [1] : Saegemuehle, Groesse 100/100.
+
+Einheit 39
+;Holzfaeller (39)
+;  Flags:
+;    haelt Stellung
+;    kaempft hinten
+;    kaempft nicht
+;    offenbart Partei
+;    versorgt andere
+;  Rasse:
+;    5 Menschen  [MENS]
+;  Waren:
+;    20 Holz  [HOLZ]
+;    5 Pferde  [PFER]
+;  Talente:
+;    Bogenschiessen [BOGE] 1 (Anfaenger)
+;    Holzfaellen [HOLZ] 5 (Meister)
+@PRODUZIERE HOLZ
+
+; + Gebaeude [2] : Bauernhof, Groesse 100/100.
+
+Einheit 3774
+;Bauern (3774)
+;  Flags:
+;    haelt Stellung
+;    kaempft hinten
+;    kaempft nicht
+;    offenbart Partei
+;  Rasse:
+;    5 Menschen  [MENS]
+;  Waren:
+;    20 Getreide  [GETR]
+;    5 Pferde  [PFER]
+;  Talente:
+;    Bogenschiessen [BOGE] 1 (Anfaenger)
+;    Landwirtschaft [LAWI] 5 (Meister)
+@;;;*Bauern
+@PRODUZIERE GETR
+
+; + Wall in Bau [3] : Steinmauer gen Suedosten, Groesse 45/100.
+
+Einheit 1664
+;Sentino (1664)
+;  Flags:
+;    haelt Stellung
+;    kaempft hinten
+;    kaempft nicht
+;    offenbart Partei
+;  Rasse:
+;    5 Anfuehrer  [ANFU]
+;  Waren:
+;    5 Pferde  [PFER]
+;    55 Steine  [STEI]
+;  Talente:
+;    Baumeister [BAUM] 5 (Meister)
+@behalte alles STEIN
+@baue
+
+;*** Ebene (42,48,Rorqual) in Duucshire ***
+
+Einheit 459
+;Tageloehner (459)
+;  Flags:
+;    haelt Stellung
+;    kaempft hinten
+;    kaempft nicht
+;    offenbart Partei
+;    versorgt andere
+;  Rasse:
+;    300 Drakons  [DRAK]
+;  Waren:
+;    52731 Silber  [SILB]
+;    612 Holz  [HOLZ]
+;    18 Triremen  [TRIR]
+;  Talente: Keine
+@;;;*Tagelöhner
+@;Behalte 100 HOLZ fuer Gaststaette
+@arbeite
+
+Einheit 830
+;Gaukler (830)
+;  Flags:
+;    besteuert selbststaendig
+;    haelt Stellung
+;    kaempft hinten
+;    kaempft nicht
+;    offenbart Partei
+;    versorgt andere
+;  Rasse:
+;    20 Drakons  [DRAK]
+;  Waren:
+;    1762 Silber  [SILB]
+;    20 Boegen  [BOGE]
+;    20 Pferde  [PFER]
+;  Talente:
+;    Bogenschiessen [BOGE] 1 (Anfaenger)
+;    Unterhaltung [UNTE] 5 (Meister)
+@;;;*Gaukler
+@UNTERHALTE
+@behalte 20 PFER
+
+Einheit 419
+;Fischer (419)
+;  Flags:
+;    haelt Stellung
+;    kaempft hinten
+;    kaempft nicht
+;    offenbart Partei
+;  Rasse:
+;    10 Drakons  [DRAK]
+;  Waren:
+;  Talente:
+;    Armbrustschiessen [ARMB] 1 (Anfaenger)
+;    Fischen [FISC] 5 (Meister)
+@arbeite
+
+Einheit 2035
+;Seeleute (2035)
+;  Flags:
+;    haelt Stellung
+;    kaempft hinten
+;    kaempft nicht
+;    offenbart Partei
+;  Rasse:
+;    100 Drakons  [DRAK]
+;  Waren:
+;  Talente:
+;    Armbrustschiessen [ARMB] 1 (Anfaenger)
+;    Segeln [SEGE] 5 (Meister)
+@;;;
+@arbeite
+
+Einheit 2044
+;Garnison (2044)
+;  Flags:
+;    auf Wache
+;    besteuert selbststaendig
+;    haelt Stellung
+;    kaempft hinten
+;    offenbart Partei
+;  Rasse:
+;    200 Drakons  [DRAK]
+;  Waren:
+;    9632 Silber  [SILB]
+;    163 Pferde  [PFER]
+;    200 Speere  [SPEE]
+;  Talente:
+;    Kavallerie [KAVA] 1 (Anfaenger)
+;    Panzerung [PANZ] 4 (Veteran,1 Xp)
+;    Speerkampf [SPKA] 1 (Anfaenger,4 Xp)
+@lerne PANZ
+@behalte 200 PFER
+
+Einheit 44
+;Schiffszimmerer (44)
+;  Flags:
+;    haelt Stellung
+;    kaempft hinten
+;    kaempft nicht
+;    offenbart Partei
+;  Rasse:
+;    50 Drakons  [DRAK]
+;  Waren:
+;    6 Schlingerhaeute  [SHAU]
+;    1 Trireme  [TRIR]
+;  Talente:
+;    Schiffsbau [SCHI] 5 (Meister)
+@;;;
+@;baue Ballon
+
+Einheit 1095
+;Schiffszimmerer (1095)
+;  Flags:
+;    haelt Stellung
+;    kaempft hinten
+;    kaempft nicht
+;    offenbart Partei
+;    versorgt andere
+;  Rasse:
+;    15 Drakons  [DRAK]
+;  Waren:
+;    1 Trireme  [TRIR]
+;  Talente:
+;    Schiffsbau [SCHI] 5 (Meister)
+@;baue Trireme
+
+Einheit 2516
+;Schiffszimmerer (2516)
+;  Flags:
+;    haelt Stellung
+;    kaempft hinten
+;    kaempft nicht
+;    offenbart Partei
+;  Rasse:
+;    75 Drakons  [DRAK]
+;  Waren:
+;    1 Trireme  [TRIR]
+;  Talente:
+;    Schiffsbau [SCHI] 4 (Veteran,2 Xp)
+@;;;
+@;baue Trireme
+@;lerne SCHI
+
+Einheit 1223
+;Schiffszimmerer (1223)
+;  Flags:
+;    haelt Stellung
+;    kaempft hinten
+;    kaempft nicht
+;    offenbart Partei
+;  Rasse:
+;    15 Drakons  [DRAK]
+;  Waren:
+;    1 Trireme  [TRIR]
+;  Talente:
+;    Schiffsbau [SCHI] 5 (Meister)
+@;;;
+@;baue TRIR
+
+; + Gebaeude [1] : Viehbetrieb, Groesse 100/100.
+
+Einheit 3051
+;Grolita Korn (3051)
+;  Flags:
+;    besteuert selbststaendig
+;    haelt Stellung
+;    kaempft hinten
+;    kaempft nicht
+;    offenbart Partei
+;  Rasse:
+;    10 Menschen  [MENS]
+;  Waren:
+;    682 Silber  [SILB]
+;    10 Boegen  [BOGE]
+;    10 Pferde  [PFER]
+;    50 Vieh  [VIEH]
+;  Talente:
+;    Bogenschiessen [BOGE] 1 (Anfaenger)
+;    Landwirtschaft [LAWI] 5 (Meister)
+@;;;;Feldarbeiter
+@PRODUZIERE VIEH
+@behalte 10 PFER
+
+; + Gebaeude [2] : Gestuet, Groesse 100/100.
+
+Einheit 404
+;Dresseure (404)
+;  Flags:
+;    besteuert selbststaendig
+;    haelt Stellung
+;    kaempft hinten
+;    kaempft nicht
+;    offenbart Partei
+;  Rasse:
+;    15 Menschen  [MENS]
+;  Waren:
+;    1024 Silber  [SILB]
+;    15 Boegen  [BOGE]
+;    81 Pferde  [PFER]
+;  Talente:
+;    Bogenschiessen [BOGE] 1 (Anfaenger)
+;    Dressur [DRES] 5 (Meister)
+@;;;*Dresseure
+@PRODUZIERE Pferde
+@behalte 15 PFER
+
+;*** Sumpf (39,49,Rorqual) in Calpio ***
+
+Einheit 1445
+;Tageloehner (1445)
+;  Flags:
+;    haelt Stellung
+;    kaempft hinten
+;    kaempft nicht
+;    offenbart Partei
+;    versorgt andere
+;  Rasse:
+;    120 Drakons  [DRAK]
+;  Waren:
+;    102 Holz  [HOLZ]
+;    162 Lebenswurz  [LEWZ]
+;    593 Vieh  [VIEH]
+;  Talente: Keine
+@arbeite
+
+Einheit 2840
+;Seher (2840)
+;  Flags:
+;    haelt Stellung
+;    kaempft hinten
+;    kaempft nicht
+;    offenbart Partei
+;  Rasse:
+;    1 Anfuehrer  [ANFU]
+;  Waren:
+;    1 Bogen  [BOGE]
+;    1 Pferd  [PFER]
+;  Talente:
+;    Bogenschiessen [BOGE] 8 (Elite,1 Xp)
+;    Wahrnehmung [WAHR] 5 (Meister)
+@;;;*Seher
+@LERNE BOGE
+@behalte 1 PFER
+
+Einheit 1690
+;Sammler (1690)
+;  Flags:
+;    haelt Stellung
+;    kaempft hinten
+;    kaempft nicht
+;    offenbart Partei
+;    versorgt andere
+;  Rasse:
+;    10 Drakons  [DRAK]
+;  Waren:
+;    10 Boegen  [BOGE]
+;    36 Lebenswurz  [LEWZ]
+;    10 Pferde  [PFER]
+;  Talente:
+;    Bogenschiessen [BOGE] 1 (Anfaenger)
+;    Waldlaeufer [WALA] 3 (Erfahren,4 Xp)
+@produziere LEWZ
+@behalte 10 PFER
+
+Einheit 171
+;Gaukler (171)
+;  Flags:
+;    haelt Stellung
+;    kaempft hinten
+;    kaempft nicht
+;    offenbart Partei
+;    versorgt andere
+;  Rasse:
+;    10 Drakons  [DRAK]
+;  Waren:
+;    10 Boegen  [BOGE]
+;    10 Pferde  [PFER]
+;  Talente:
+;    Bogenschiessen [BOGE] 1 (Anfaenger)
+;    Unterhaltung [UNTE] 4 (Veteran,2 Xp)
+@UNTERHALTE
+
+Einheit 655
+;Garnison (655)
+;  Flags:
+;    auf Wache
+;    besteuert selbststaendig
+;    offenbart Partei
+;  Rasse:
+;    100 Drakons  [DRAK]
+;  Waren:
+;    100 Speere  [SPEE]
+;  Talente:
+;    Panzerung [PANZ] 2 (Ausgebildet,3 Xp)
+;    Speerkampf [SPKA] 1 (Anfaenger,4 Xp)
+@lerne PANZ
+
+Einheit 1180
+;Bote (1180)
+;  Flags:
+;    erhaelt keine Unterstuetzung
+;    haelt Stellung
+;    kaempft hinten
+;    kaempft nicht
+;    offenbart Partei
+;    versorgt andere
+;  Rasse:
+;    1 Mensch  [MENS]
+;  Waren:
+;    24680 Silber  [SILB]
+;    1 Pegasus  [PEGA]
+;  Talente:
+;    Infanterie [INFA] 2 (Ausgebildet)
+;    Segen des Morlok [MORL] 1 (Kleiner)
+;    Schwertkampf [SWKA] 7 (Adept,3 Xp)
+@behalte 1 PEGA
+
+; + Gebaeude [1] : Saegemuehle, Groesse 100/100.
+
+Einheit 618
+;Holzfaeller (618)
+;  Flags:
+;    haelt Stellung
+;    kaempft hinten
+;    kaempft nicht
+;    offenbart Partei
+;    versorgt andere
+;  Rasse:
+;    10 Menschen  [MENS]
+;  Waren:
+;    10 Boegen  [BOGE]
+;    76 Holz  [HOLZ]
+;    20 Pferde  [PFER]
+;  Talente:
+;    Bogenschiessen [BOGE] 1 (Anfaenger)
+;    Holzfaellen [HOLZ] 5 (Meister)
+@behalte 10 PFER
+@produziere HOLZ
+
+; + Gebaeude [2] : Viehbetrieb, Groesse 100/100.
+
+Einheit 458
+;Bauern (458)
+;  Flags:
+;    haelt Stellung
+;    kaempft hinten
+;    kaempft nicht
+;    offenbart Partei
+;    versorgt andere
+;  Rasse:
+;    5 Menschen  [MENS]
+;  Waren:
+;    5 Boegen  [BOGE]
+;    5 Pferde  [PFER]
+;    44 Vieh  [VIEH]
+;  Talente:
+;    Bogenschiessen [BOGE] 1 (Anfaenger)
+;    Landwirtschaft [LAWI] 5 (Meister)
+@produziere VIEH
+
+;*** Ozean (41,49,Rorqual), rotes Meer von Rorqual ***
+
+;F FLOTTE 4242(1 Langboot), Beladung: 152/200
+
+Einheit 4242
+;Seemann (4242)
+;  Flags:
+;    haelt Stellung
+;    kaempft hinten
+;    kaempft nicht
+;    offenbart Partei
+;    versorgt andere
+;  Rasse:
+;    1 Mensch  [MENS]
+;  Waren:
+;    1 Langboot  [LABO]
+;  Talente:
+;    Segeln [SEGE] 5 (Meister)
+
+Einheit 3080
+;Fischer (3080)
+;  Flags:
+;    haelt Stellung
+;    kaempft hinten
+;    kaempft nicht
+;    offenbart Partei
+;    versorgt andere
+;  Rasse:
+;    5 Drakons  [DRAK]
+;  Waren:
+;    92 Fische  [FISC]
+;  Talente:
+;    Fischen [FISC] 5 (Meister)
+@;
+@produziere FISC
+
+;F FLOTTE 2949(1 Drachenschiff), Beladung: 140/800
+
+Einheit 2949
+;Wachflotte (2949)
+;  Flags:
+;    haelt Stellung
+;    kaempft hinten
+;    kaempft nicht
+;    offenbart Partei
+;    versorgt andere
+;  Rasse:
+;    3 Drakons  [DRAK]
+;  Waren:
+;    820 Silber  [SILB]
+;    1 Drachenschiff  [DSCH]
+;  Talente:
+;    Segeln [SEGE] 4 (Veteran)
+
+Einheit 2621
+;Garnison (2621)
+;  Flags:
+;    auf Wache
+;    haelt Stellung
+;    kaempft hinten
+;    offenbart Partei
+;  Rasse:
+;    10 Menschen  [MENS]
+;  Waren:
+;    10 Speere  [SPEE]
+;  Talente:
+;    Kavallerie [KAVA] 2 (Ausgebildet)
+;    Speerkampf [SPKA] 8 (Elite,1 Xp)
+@; Bewachen!!!
+bewache 1
+
+;F FLOTTE 952(1 Trireme), Beladung: 1300/1800
+
+Einheit 952
+;Flotte der Talida (952)
+;  Flags:
+;    haelt Stellung
+;    kaempft hinten
+;    kaempft nicht
+;    offenbart Partei
+;    versorgt andere
+;  Rasse:
+;    108 Drakons  [DRAK]
+;  Waren:
+;    10280 Silber  [SILB]
+;    1 Trireme  [TRIR]
+;  Talente:
+;    Segeln [SEGE] 4 (Veteran,1 Xp)
+@;
+@behalte alles SILB
+reise no
+
+Einheit 403
+;Wachen (403)
+;  Flags:
+;    haelt Stellung
+;    offenbart Partei
+;    versorgt andere
+;  Rasse:
+;    20 Drakons  [DRAK]
+;  Waren:
+;    20 Speere  [SPEE]
+;  Talente:
+;    Kavallerie [KAVA] 2 (Ausgebildet)
+;    Panzerung [PANZ] 5 (Meister)
+;    Speerkampf [SPKA] 8 (Elite,1 Xp)
+@behalte alles SILB
+@behalte alles SPEE
+
+;*** Ozean (30,50,Rorqual), rotes Meer von Rorqual ***
+
+;F FLOTTE 3412(3 Triremen), Beladung: 5315/5400
+
+Einheit 3412
+;Handelsflotte der Talida (3412)
+;  Flags:
+;    haelt Stellung
+;    kaempft hinten
+;    kaempft nicht
+;    offenbart Partei
+;    versorgt andere
+;  Rasse:
+;    9 Drakons  [DRAK]
+;  Waren:
+;    120 Silber  [SILB]
+;    95 Schlachtroesser  [SROS]
+;    3 Triremen  [TRIR]
+;  Talente:
+;    Segeln [SEGE] 5 (Meister)
+@;nach 39,53
+reise s so so so
++1 reise so no so no
++2 reise no no
+
+;*** Sumpf (40,50,Rorqual) in Calpio ***
+
+Einheit 3292
+;Tageloehner (3292)
+;  Flags:
+;    haelt Stellung
+;    kaempft hinten
+;    kaempft nicht
+;    offenbart Partei
+;    versorgt andere
+;  Rasse:
+;    140 Drakons  [DRAK]
+;  Waren:
+;    87020 Silber  [SILB]
+;    50 Holz  [HOLZ]
+;    90 Lebenswurz  [LEWZ]
+;    325 Vieh  [VIEH]
+;  Talente: Keine
+@;;;
+@arbeite
+
+Einheit 486
+;Seher (486)
+;  Flags:
+;    besteuert selbststaendig
+;    haelt Stellung
+;    kaempft hinten
+;    offenbart Partei
+;  Rasse:
+;    1 Mensch  [MENS]
+;  Waren:
+;    13 Silber  [SILB]
+;    1 Pferd  [PFER]
+;    1 Schwert  [SCHW]
+;  Talente:
+;    Schwertkampf [SWKA] 9 (Meister)
+;    Wahrnehmung [WAHR] 5 (Meister)
+@;;;
+@arbeite
+
+Einheit 3441
+;Gaukler (3441)
+;  Flags:
+;    haelt Stellung
+;    kaempft hinten
+;    kaempft nicht
+;    offenbart Partei
+;  Rasse:
+;    10 Drakons  [DRAK]
+;  Waren:
+;    60 Silber  [SILB]
+;    10 Pferde  [PFER]
+;  Talente:
+;    Bogenschiessen [BOGE] 1 (Anfaenger)
+;    Unterhaltung [UNTE] 4 (Veteran,2 Xp)
+@;;;*Gaukler
+@UNTERHALTE
+
+Einheit 452
+;Sammler (452)
+;  Flags:
+;    haelt Stellung
+;    kaempft hinten
+;    kaempft nicht
+;    offenbart Partei
+;    versorgt andere
+;  Rasse:
+;    5 Drakons  [DRAK]
+;  Waren:
+;    20 Lebenswurz  [LEWZ]
+;    5 Pferde  [PFER]
+;  Talente:
+;    Bogenschiessen [BOGE] 1 (Anfaenger,1 Xp)
+;    Waldlaeufer [WALA] 4 (Veteran,1 Xp)
+@PRODUZIERE LEWZ
+
+Einheit 258
+;Garnison (258)
+;  Flags:
+;    auf Wache
+;    besteuert selbststaendig
+;    offenbart Partei
+;  Rasse:
+;    100 Drakons  [DRAK]
+;  Waren:
+;    40 Pferde  [PFER]
+;    100 Speere  [SPEE]
+;  Talente:
+;    Panzerung [PANZ] 2 (Ausgebildet,3 Xp)
+;    Speerkampf [SPKA] 1 (Anfaenger,4 Xp)
+@lerne PANZ
+
+Einheit 4950
+;Karavane (4950)
+;  Flags:
+;    haelt Stellung
+;    kaempft hinten
+;    kaempft nicht
+;    offenbart Partei
+;  Rasse:
+;    1 Drakon  [DRAK]
+;  Waren:
+;    501 Pferde  [PFER]
+;    200 Steine  [STEI]
+;  Talente: Keine
+@behalte 501 Pfer
+reise s
+
+Einheit 2855
+;Baumeister (2855)
+;  Flags:
+;    haelt Stellung
+;    kaempft hinten
+;    kaempft nicht
+;    offenbart Partei
+;  Rasse:
+;    50 Drakons  [DRAK]
+;  Waren:
+;  Talente:
+;    Baumeister [BAUM] 5 (Meister)
+@;;;weiter nach s
+@behalte alles STEIN
+reise s
+
+; + Gebaeude [1] : Saegemuehle, Groesse 100/100.
+
+Einheit 2128
+;Holzfaeller (2128)
+;  Flags:
+;    haelt Stellung
+;    kaempft hinten
+;    kaempft nicht
+;    offenbart Partei
+;  Rasse:
+;    5 Menschen  [MENS]
+;  Waren:
+;    50 Holz  [HOLZ]
+;    5 Pferde  [PFER]
+;  Talente:
+;    Bogenschiessen [BOGE] 1 (Anfaenger)
+;    Holzfaellen [HOLZ] 5 (Meister)
+@;;;*Holzfäller
+@PRODUZIERE HOLZ
+
+; + Gebaeude [2] : Viehbetrieb, Groesse 100/100.
+
+Einheit 1536
+;Bauern (1536)
+;  Flags:
+;    haelt Stellung
+;    kaempft hinten
+;    kaempft nicht
+;    offenbart Partei
+;  Rasse:
+;    5 Menschen  [MENS]
+;  Waren:
+;    5 Pferde  [PFER]
+;    50 Vieh  [VIEH]
+;  Talente:
+;    Bogenschiessen [BOGE] 1 (Anfaenger)
+;    Landwirtschaft [LAWI] 5 (Meister)
+@Produziere VIEH
+
+;*** Ozean (42,50,Rorqual), rotes Meer von Rorqual ***
+
+;F FLOTTE 3468(1 Langboot), Beladung: 110/200
+
+Einheit 3468
+;Seemann (3468)
+;  Flags:
+;    haelt Stellung
+;    kaempft hinten
+;    kaempft nicht
+;    offenbart Partei
+;    versorgt andere
+;  Rasse:
+;    1 Mensch  [MENS]
+;  Waren:
+;    1 Langboot  [LABO]
+;  Talente:
+;    Segeln [SEGE] 5 (Meister)
+@BEHALTE ALLES SILB
+
+Einheit 3480
+;Fischer (3480)
+;  Flags:
+;    haelt Stellung
+;    kaempft hinten
+;    kaempft nicht
+;    offenbart Partei
+;    versorgt andere
+;  Rasse:
+;    5 Drakons  [DRAK]
+;  Waren:
+;    50 Fische  [FISC]
+;  Talente:
+;    Fischen [FISC] 5 (Meister)
+@;
+@produziere FISC
+
+;F FLOTTE 2338(1 Drachenschiff), Beladung: 140/800
+
+Einheit 2338
+;Wachflotte (2338)
+;  Flags:
+;    haelt Stellung
+;    kaempft hinten
+;    kaempft nicht
+;    offenbart Partei
+;    versorgt andere
+;  Rasse:
+;    3 Drakons  [DRAK]
+;  Waren:
+;    1420 Silber  [SILB]
+;    1 Drachenschiff  [DSCH]
+;  Talente:
+;    Segeln [SEGE] 4 (Veteran)
+
+Einheit 2254
+;Garnison (2254)
+;  Flags:
+;    auf Wache
+;    haelt Stellung
+;    kaempft hinten
+;    offenbart Partei
+;  Rasse:
+;    10 Menschen  [MENS]
+;  Waren:
+;    10 Speere  [SPEE]
+;  Talente:
+;    Kavallerie [KAVA] 2 (Ausgebildet)
+;    Speerkampf [SPKA] 8 (Elite,1 Xp)
+
+;*** Sumpf (39,51,Rorqual) in Calpio ***
+
+Einheit 1820
+;Tageloehner (1820)
+;  Flags:
+;    haelt Stellung
+;    kaempft hinten
+;    kaempft nicht
+;    offenbart Partei
+;    versorgt andere
+;  Rasse:
+;    100 Drakons  [DRAK]
+;  Waren:
+;    34373 Silber  [SILB]
+;    860 Getreide  [GETR]
+;    460 Holz  [HOLZ]
+;    12 Lederruestungen  [LEDR]
+;    823 Lebenswurz  [LEWZ]
+;    209 Schlingerhaeute  [SHAU]
+;  Talente: Keine
+@arbeite
+gib 490 209 SHAU
+
+Einheit 2075
+;Seher (2075)
+;  Flags:
+;    haelt Stellung
+;    kaempft hinten
+;    kaempft nicht
+;    offenbart Partei
+;  Rasse:
+;    1 Anfuehrer  [ANFU]
+;  Waren:
+;    1 Pferd  [PFER]
+;  Talente:
+;    Bogenschiessen [BOGE] 8 (Elite)
+;    Wahrnehmung [WAHR] 5 (Meister)
+@;;;*Seher
+@lerne BOGE
+
+Einheit 2716
+;Wachen (2716)
+;  Flags:
+;    auf Wache
+;    besteuert selbststaendig
+;    haelt Stellung
+;    offenbart Partei
+;    versorgt andere
+;  Rasse:
+;    50 Drakons  [DRAK]
+;  Waren:
+;    2550 Silber  [SILB]
+;    22 Pferde  [PFER]
+;    50 Speere  [SPEE]
+;  Talente:
+;    Kavallerie [KAVA] 6 (Elite)
+;    Speerkampf [SPKA] 9 (Meister)
+@;;;*Wachen
+@lerne kava
+
+Einheit 1067
+;Sammler (1067)
+;  Flags:
+;    haelt Stellung
+;    kaempft hinten
+;    kaempft nicht
+;    offenbart Partei
+;    versorgt andere
+;  Rasse:
+;    10 Drakons  [DRAK]
+;  Waren:
+;    34 Lebenswurz  [LEWZ]
+;    10 Pferde  [PFER]
+;  Talente:
+;    Bogenschiessen [BOGE] 1 (Anfaenger)
+;    Waldlaeufer [WALA] 4 (Veteran)
+@PRODUZIERE LEWZ
+
+Einheit 834
+;Gaukler (834)
+;  Flags:
+;    haelt Stellung
+;    kaempft hinten
+;    kaempft nicht
+;    offenbart Partei
+;    versorgt andere
+;  Rasse:
+;    5 Drakons  [DRAK]
+;  Waren:
+;    620 Silber  [SILB]
+;    5 Pferde  [PFER]
+;  Talente:
+;    Bogenschiessen [BOGE] 1 (Anfaenger)
+;    Unterhaltung [UNTE] 4 (Veteran)
+@UNTERHALTE
+
+Einheit 3179
+;Garnison (3179)
+;  Flags:
+;    haelt Stellung
+;    kaempft hinten
+;    kaempft nicht
+;    offenbart Partei
+;  Rasse:
+;    100 Drakons  [DRAK]
+;  Waren:
+;    100 Speere  [SPEE]
+;  Talente:
+;    Panzerung [PANZ] 2 (Ausgebildet,1 Xp)
+;    Speerkampf [SPKA] 1 (Anfaenger,4 Xp)
+
+Einheit 490
+;Blitzkaravane (490)
+;  Flags:
+;    erhaelt keine Unterstuetzung
+;    haelt Stellung
+;    kaempft hinten
+;    offenbart Partei
+;  Rasse:
+;    1 Mensch  [MENS]
+;  Waren:
+;    52 Eisenholz  [EIHO]
+;    251 Pegasi  [PEGA]
+;  Talente:
+;    Bergbau [BERG] 1 (Anfaenger)
+;    Kavallerie [KAVA] 2 (Ausgebildet)
+;    Segen des Morlok [MORL] 5 (Machtvoll)
+;    Schwertkampf [SWKA] 7 (Adept,3 Xp)
+;    Unterhaltung [UNTE] 2 (Ausgebildet)
+;    Waffenschmied [WAFF] 1 (Anfaenger,1 Xp)
+@; 39,51: Eiho fuer Gerberei
+@behalte 251 PEGA
+gib 797 52 EIHO
+reise no n n no
+
+; + Gebaeude [1] : Saegemuehle, Groesse 100/100.
+
+Einheit 576
+;Holzfaeller (576)
+;  Flags:
+;    haelt Stellung
+;    kaempft hinten
+;    kaempft nicht
+;    offenbart Partei
+;    versorgt andere
+;  Rasse:
+;    10 Menschen  [MENS]
+;  Waren:
+;    40 Holz  [HOLZ]
+;    10 Pferde  [PFER]
+;  Talente:
+;    Bogenschiessen [BOGE] 1 (Anfaenger)
+;    Holzfaellen [HOLZ] 5 (Meister)
+@produziere HOLZ
+
+; + Gebaeude [2] : Bauernhof, Groesse 100/100.
+
+Einheit 1971
+;Bauern (1971)
+;  Flags:
+;    haelt Stellung
+;    kaempft hinten
+;    kaempft nicht
+;    offenbart Partei
+;  Rasse:
+;    10 Menschen  [MENS]
+;  Waren:
+;    72 Getreide  [GETR]
+;    10 Pferde  [PFER]
+;  Talente:
+;    Bogenschiessen [BOGE] 1 (Anfaenger)
+;    Landwirtschaft [LAWI] 5 (Meister)
+@;;;*Bauern
+@produziere GETR
+
+; + Gebaeude [3] : Schlingerhautgerberei, Groesse 48/100.
+
+Einheit 797
+;Jaeger (797)
+;  Flags:
+;    haelt Stellung
+;    kaempft hinten
+;    kaempft nicht
+;    offenbart Partei
+;    versorgt andere
+;  Rasse:
+;    12 Barbaren  [BARB]
+;  Waren:
+;    12 Pferde  [PFER]
+;    38 Schlingerhaeute  [SHAU]
+;  Talente:
+;    Bogenschiessen [BOGE] 1 (Anfaenger)
+;    Jagen [JAGD] 5 (Meister)
+@;;;
+@;PRODUZIERE SHAU
+@behalte ALLES EIHO
+@baue
+
+;*** Ozean (41,51,Rorqual), rotes Meer von Rorqual ***
+
+;F FLOTTE 3361(1 Langboot), Beladung: 185/200
+
+Einheit 3361
+;Seemann (3361)
+;  Flags:
+;    haelt Stellung
+;    kaempft hinten
+;    kaempft nicht
+;    offenbart Partei
+;    versorgt andere
+;  Rasse:
+;    1 Mensch  [MENS]
+;  Waren:
+;    1 Langboot  [LABO]
+;  Talente:
+;    Segeln [SEGE] 5 (Meister)
+@BEHALTE ALLES SILB
+
+Einheit 5930
+;Fischer (5930)
+;  Flags:
+;    haelt Stellung
+;    kaempft hinten
+;    kaempft nicht
+;    offenbart Partei
+;    versorgt andere
+;  Rasse:
+;    5 Drakons  [DRAK]
+;  Waren:
+;    125 Fische  [FISC]
+;  Talente:
+;    Fischen [FISC] 5 (Meister)
+@;
+@produziere FISC
+
+;F FLOTTE 2240(1 Drachenschiff), Beladung: 140/800
+
+Einheit 2240
+;Wachflotte (2240)
+;  Flags:
+;    haelt Stellung
+;    kaempft hinten
+;    kaempft nicht
+;    offenbart Partei
+;    versorgt andere
+;  Rasse:
+;    3 Drakons  [DRAK]
+;  Waren:
+;    1420 Silber  [SILB]
+;    1 Drachenschiff  [DSCH]
+;  Talente:
+;    Segeln [SEGE] 4 (Veteran)
+
+Einheit 3591
+;Garnison (3591)
+;  Flags:
+;    auf Wache
+;    haelt Stellung
+;    kaempft hinten
+;    offenbart Partei
+;  Rasse:
+;    10 Menschen  [MENS]
+;  Waren:
+;    10 Speere  [SPEE]
+;  Talente:
+;    Kavallerie [KAVA] 2 (Ausgebildet)
+;    Speerkampf [SPKA] 8 (Elite,1 Xp)
+
+;F FLOTTE 2395(6 Ballons), Beladung: 370/4800
+
+Einheit 2395
+;Ballonfahrer (2395)
+;  Flags:
+;    haelt Stellung
+;    kaempft hinten
+;    kaempft nicht
+;    offenbart Partei
+;  Rasse:
+;    12 Drakons  [DRAK]
+;  Waren:
+;    11420 Silber  [SILB]
+;    6 Ballons  [BALL]
+;    250 Fische  [FISC]
+;  Talente:
+;    Segeln [SEGE] 5 (Meister)
+@behalte alles SILB
+@sammle alles FISC
+reise n
++1 reise n
+
+;*** Sumpf (40,52,Rorqual) in Calpio ***
+
+Einheit 4016
+;Tageloehner (4016)
+;  Flags:
+;    haelt Stellung
+;    kaempft hinten
+;    kaempft nicht
+;    offenbart Partei
+;    versorgt andere
+;  Rasse:
+;    80 Drakons  [DRAK]
+;  Waren:
+;  Talente: Keine
+@;;;
+@; 100 HOLZ fuer Gaststaette behalten.
+@behalte 100 HOLZ 
+@arbeite
+
+Einheit 13168
+;Seher (13168)
+;  Flags:
+;    haelt Stellung
+;    kaempft hinten
+;    kaempft nicht
+;    offenbart Partei
+;    versorgt andere
+;  Rasse:
+;    1 Anfuehrer  [ANFU]
+;  Waren:
+;    1 Pferd  [PFER]
+;  Talente:
+;    Bogenschiessen [BOGE] 7 (Adept,4 Xp)
+;    Wahrnehmung [WAHR] 5 (Meister)
+@;;;
+@lerne BOGE
+
+Einheit 2327
+;Wachen (2327)
+;  Flags:
+;    auf Wache
+;    besteuert selbststaendig
+;    haelt Stellung
+;    offenbart Partei
+;    versorgt andere
+;  Rasse:
+;    50 Drakons  [DRAK]
+;  Waren:
+;    34 Pferde  [PFER]
+;    50 Speere  [SPEE]
+;  Talente:
+;    Kavallerie [KAVA] 3 (Erfahren,3 Xp)
+;    Panzerung [PANZ] 5 (Meister)
+;    Speerkampf [SPKA] 9 (Meister)
+;    Waffenschmied [WAFF] 1 (Anfaenger)
+@;;;*Wachen
+@lerne KAVA
+
+Einheit 2001
+;Sammler (2001)
+;  Flags:
+;    haelt Stellung
+;    kaempft hinten
+;    kaempft nicht
+;    offenbart Partei
+;    versorgt andere
+;  Rasse:
+;    10 Drakons  [DRAK]
+;  Waren:
+;    17 Lebenswurz  [LEWZ]
+;    10 Pferde  [PFER]
+;  Talente:
+;    Bogenschiessen [BOGE] 1 (Anfaenger,1 Xp)
+;    Waldlaeufer [WALA] 3 (Erfahren,4 Xp)
+@PRODUZIERE LEWZ
+
+Einheit 544
+;Gaukler (544)
+;  Flags:
+;    haelt Stellung
+;    kaempft hinten
+;    kaempft nicht
+;    offenbart Partei
+;    versorgt andere
+;  Rasse:
+;    5 Drakons  [DRAK]
+;  Waren:
+;    5 Pferde  [PFER]
+;  Talente:
+;    Bogenschiessen [BOGE] 1 (Anfaenger)
+;    Unterhaltung [UNTE] 4 (Veteran)
+@UNTERHALTE
+
+Einheit 954
+;Garnison (954)
+;  Flags:
+;    haelt Stellung
+;    kaempft nicht
+;    offenbart Partei
+;    versorgt andere
+;  Rasse:
+;    200 Drakons  [DRAK]
+;  Waren:
+;    17520 Silber  [SILB]
+;    200 Speere  [SPEE]
+;  Talente:
+;    Kavallerie [KAVA] 0 (Laie)
+;    Panzerung [PANZ] 2 (Ausgebildet,1 Xp)
+;    Speerkampf [SPKA] 1 (Anfaenger,4 Xp)
+@; Fuer die Suempfe
+
+; + Gebaeude [1] : Saegemuehle, Groesse 100/100.
+
+Einheit 579
+;Holzfaeller (579)
+;  Flags:
+;    haelt Stellung
+;    kaempft hinten
+;    kaempft nicht
+;    offenbart Partei
+;    versorgt andere
+;  Rasse:
+;    10 Menschen  [MENS]
+;  Waren:
+;    30 Holz  [HOLZ]
+;    10 Pferde  [PFER]
+;  Talente:
+;    Bogenschiessen [BOGE] 1 (Anfaenger)
+;    Holzfaellen [HOLZ] 4 (Veteran,4 Xp)
+@produziere HOLZ
+
+; + Gebaeude [2] : Bauernhof, Groesse 100/100.
+
+Einheit 2444
+;Bauern (2444)
+;  Flags:
+;    haelt Stellung
+;    kaempft hinten
+;    kaempft nicht
+;    offenbart Partei
+;  Rasse:
+;    10 Menschen  [MENS]
+;  Waren:
+;    24 Getreide  [GETR]
+;    10 Pferde  [PFER]
+;  Talente:
+;    Bogenschiessen [BOGE] 1 (Anfaenger)
+;    Landwirtschaft [LAWI] 5 (Meister)
+@;;;*Bauern
+@PRODUZIERE GETR 
+
+;*** Ozean (42,52,Rorqual), rotes Meer von Rorqual ***
+
+;F FLOTTE 1003(1 Langboot), Beladung: 85/200
+
+Einheit 1003
+;Seemann (1003)
+;  Flags:
+;    haelt Stellung
+;    kaempft hinten
+;    kaempft nicht
+;    offenbart Partei
+;    versorgt andere
+;  Rasse:
+;    1 Drakon  [DRAK]
+;  Waren:
+;    1 Langboot  [LABO]
+;  Talente:
+;    Segeln [SEGE] 5 (Meister)
+@behalte alles SILB
+
+Einheit 994
+;Fischer (994)
+;  Flags:
+;    haelt Stellung
+;    kaempft hinten
+;    kaempft nicht
+;    offenbart Partei
+;    versorgt andere
+;  Rasse:
+;    5 Drakons  [DRAK]
+;  Waren:
+;    25 Fische  [FISC]
+;  Talente:
+;    Fischen [FISC] 5 (Meister)
+@;;;
+@produziere FISC
+
+;F FLOTTE 2607(1 Drachenschiff), Beladung: 140/800
+
+Einheit 2607
+;Wachflotte (2607)
+;  Flags:
+;    haelt Stellung
+;    kaempft hinten
+;    kaempft nicht
+;    offenbart Partei
+;    versorgt andere
+;  Rasse:
+;    3 Drakons  [DRAK]
+;  Waren:
+;    330 Silber  [SILB]
+;    1 Drachenschiff  [DSCH]
+;  Talente:
+;    Segeln [SEGE] 4 (Veteran)
+
+Einheit 2662
+;Garnison (2662)
+;  Flags:
+;    auf Wache
+;    haelt Stellung
+;    kaempft hinten
+;    offenbart Partei
+;  Rasse:
+;    10 Menschen  [MENS]
+;  Waren:
+;    10 Speere  [SPEE]
+;  Talente:
+;    Kavallerie [KAVA] 2 (Ausgebildet)
+;    Speerkampf [SPKA] 8 (Elite,1 Xp)
+
+;*** Sumpf (39,53,Rorqual) in Calpio ***
+
+Einheit 3304
+;Tageloehner (3304)
+;  Flags:
+;    haelt Stellung
+;    kaempft hinten
+;    kaempft nicht
+;    offenbart Partei
+;    versorgt andere
+;  Rasse:
+;    130 Drakons  [DRAK]
+;  Waren:
+;    35425 Silber  [SILB]
+;    120 Getreide  [GETR]
+;    100 Holz  [HOLZ]
+;    95 Lebenswurz  [LEWZ]
+;  Talente: Keine
+@;;;
+@arbeite
+@; Einheit 7497 (Erchamion) benötigt 2140 Silber pro Monat.
+gib 7497 2140 SILB
+
+Einheit 4035
+;Seher (4035)
+;  Flags:
+;    besteuert selbststaendig
+;    haelt Stellung
+;    kaempft hinten
+;    kaempft nicht
+;    offenbart Partei
+;  Rasse:
+;    1 Anfuehrer  [ANFU]
+;  Waren:
+;    1 Bogen  [BOGE]
+;  Talente:
+;    Bogenschiessen [BOGE] 8 (Elite)
+;    Wahrnehmung [WAHR] 5 (Meister)
+@;;;*Seher
+@LERNE BOGE
+
+Einheit 5795
+;Sammler (5795)
+;  Flags:
+;    besteuert selbststaendig
+;    haelt Stellung
+;    kaempft nicht
+;    offenbart Partei
+;    versorgt andere
+;  Rasse:
+;    12 Menschen  [MENS]
+;  Waren:
+;    252 Silber  [SILB]
+;    12 Kettenruestungen  [KETT]
+;    38 Lebenswurz  [LEWZ]
+;    12 Rundschilde  [RSCH]
+;    12 Speere  [SPEE]
+;  Talente:
+;    Infanterie [INFA] 2 (Ausgebildet,1 Xp)
+;    Speerkampf [SPKA] 6 (Spezialist,1 Xp)
+;    Waldlaeufer [WALA] 4 (Veteran,1 Xp)
+@produziere LEWZ
+
+Einheit 2368
+;Gaukler (2368)
+;  Flags:
+;    besteuert selbststaendig
+;    haelt Stellung
+;    kaempft hinten
+;    kaempft nicht
+;    offenbart Partei
+;    versorgt andere
+;  Rasse:
+;    5 Drakons  [DRAK]
+;  Waren:
+;    724 Silber  [SILB]
+;    5 Boegen  [BOGE]
+;  Talente:
+;    Bogenschiessen [BOGE] 1 (Anfaenger)
+;    Unterhaltung [UNTE] 4 (Veteran)
+@UNTERHALTE
+
+Einheit 4905
+;Garnison (4905)
+;  Flags:
+;    auf Wache
+;    besteuert selbststaendig
+;    haelt Stellung
+;    offenbart Partei
+;    versorgt andere
+;  Rasse:
+;    100 Drakons  [DRAK]
+;  Waren:
+;    514 Silber  [SILB]
+;    100 Speere  [SPEE]
+;  Talente:
+;    Panzerung [PANZ] 1 (Anfaenger)
+;    Speerkampf [SPKA] 4 (Veteran,3 Xp)
+@lerne PANZ
+
+Einheit 421
+;Karavane (421)
+;  Flags:
+;    haelt Stellung
+;    kaempft hinten
+;    kaempft nicht
+;    offenbart Partei
+;  Rasse:
+;    1 Mensch  [MENS]
+;  Waren:
+;    20112 Silber  [SILB]
+;    672 Getreide  [GETR]
+;    675 Holz  [HOLZ]
+;    561 Lebenswurz  [LEWZ]
+;    501 Pferde  [PFER]
+;  Talente: Keine
+@behalte 501 PFER
+@; Im Sumpf nach Holz suchen, erst sued, dann nord
+reise n
+sammle alles HOLZ
+
+Einheit 3966
+;Bauern (3966)
+;  Flags:
+;    haelt Stellung
+;    kaempft hinten
+;    kaempft nicht
+;    offenbart Partei
+;    versorgt andere
+;  Rasse:
+;    70 Menschen  [MENS]
+;  Waren:
+;    65 Boegen  [BOGE]
+;    65 Pferde  [PFER]
+;  Talente:
+;    Bogenschiessen [BOGE] 1 (Anfaenger)
+;    Landwirtschaft [LAWI] 5 (Meister)
+@;;;Keine Ahnung, Epala?
+
+Einheit 1274
+;Karavane (1274)
+;  Flags:
+;    erhaelt keine Unterstuetzung
+;    haelt Stellung
+;    kaempft hinten
+;    kaempft nicht
+;    offenbart Partei
+;    versorgt andere
+;  Rasse:
+;    1 Mensch  [MENS]
+;  Waren:
+;    501 Pferde  [PFER]
+;    100 Steine  [STEI]
+;  Talente:
+;    Kavallerie [KAVA] 2 (Ausgebildet)
+;    Segen des Morlok [MORL] 1 (Kleiner)
+;    Schwertkampf [SWKA] 7 (Adept,3 Xp)
+@behalte 501 PFER
+gib 3304 100 STEI
+gib 421 501 PFER
+gib 421 1 MENS
+
+; + Gebaeude [1] : Turm.
+
+Einheit 1823
+;Herzog Phillip von Bondai (1823)
+;  Flags:
+;    haelt Stellung
+;    kaempft hinten
+;    offenbart Partei
+;    versorgt andere
+;  Rasse:
+;    1 Anfuehrer  [ANFU]
+;  Waren:
+;    1 Adamantruestung  [APAN]
+;    1 Kriegsschild  [KSCH]
+;    1 Obsidianspeer  [OBSP]
+;    1 Pegasus  [PEGA]
+;    1 Portal  [PORT]
+;  Talente:
+;    Energie [ENER] 5 (Meister)
+;    Geist [GEIS] 5 (Meister)
+;    Materie [MATE] 4 (Veteran)
+;    Kunde der Artefakte [ARTE] 3 (Erfahren)
+;    Kunde der Daemonen [DAEM] 2 (Ausgebildet)
+;    Dimensionskunde [DIMK] 3 (Erfahren,1 Xp)
+;    Portal erschaffen [EPOR] 1 (Anfaenger)
+;    Fernsicht [FERN] 3 (Erfahren)
+;    Feuerball [FEUE] 3 (Erfahren)
+;    Gedankenlesen [GEDA] 1 (Anfaenger)
+;    Instabiles Weltentor erschaffen [IWER] 2 (Meister)
+;    Magische Heilung [MHEI] 2 (Ausgebildet,1 Xp)
+;    Kunde der Natur [NATU] 2 (Ausgebildet,1 Xp)
+;    Portalkunde [PORT] 3 (Erfahren)
+;    Ruestungen verzaubern [RVER] 2 (Ausgebildet)
+;    Sturm rufen [STRU] 2 (Ausgebildet)
+;    Teleportation [TELE] 3 (Erfahren)
+;    Wahrnehmung [WAHR] 3 (Erfahren,1 Xp)
+;    Wetterkunde [WETT] 2 (Ausgebildet)
+;    Winde beherrschen [WIND] 1 (Anfaenger,3 Xp)
+;    Kunde der Woelfe [WKUN] 2 (Ausgebildet)
+;    Waffen verzaubern [WVER] 2 (Ausgebildet)
+;  Kann lernen:
+;    Kunde der Artefakte [ARTE]
+;    Kunde der Daemonen [DAEM]
+;    Daemonen bannen [DBAN]
+;    Dimensionskunde [DIMK]
+;    Dimensionstor erschaffen [EDIM]
+;    Portal erschaffen [EPOR]
+;    Erdbeben [ERDB]
+;    Energieschild [ESLD]
+;    Stab des Feuers erschaffen [ESTF]
+;    Fernsicht [FERN]
+;    Feuerball [FEUE]
+;    Gedankenlesen [GEDA]
+;    Kraftschild [KSLD]
+;    Magische Heilung [MHEI]
+;    Mentalschild [MSLD]
+;    Kunde der Natur [NATU]
+;    Nekromantie [NEKR]
+;    Phantasmen [PHAN]
+;    Ruestungen verzaubern [RVER]
+;    Teufel beschwoeren [TFBE]
+;    Kunde der Voegel [VKUN]
+;    Wetter beruhigen [WEBE]
+;    Wetterkunde [WETT]
+;    Winde beherrschen [WIND]
+;    Waffen verzaubern [WVER]
+@behalte 1 PEGA
+@behalte 1 APAN
+@behalte 1 KSCH
+@behalte 1 OBSP
+@behalte 1 PORT
+@;ZAUBERE TELEPORTATION REGION 42 36 -1
+@;ZAUBERE Dimensionskunde DIMENSIONSTOR 18 EINHEITEN 1823
+@;ZAUBERE FERN REGION 43 7
+@;ZAUBERE Portalkunde 1825 EINHEITEN 1537 (Epala)
+@lerne EPOR
+zaubere PORT 1010 EINHEITEN 7497
+
+; + Gebaeude [2] : Saegemuehle, Groesse 100/100.
+
+Einheit 270
+;Holzfaeller (270)
+;  Flags:
+;    besteuert selbststaendig
+;    haelt Stellung
+;    kaempft hinten
+;    kaempft nicht
+;    offenbart Partei
+;    versorgt andere
+;  Rasse:
+;    5 Menschen  [MENS]
+;  Waren:
+;    126 Silber  [SILB]
+;    5 Boegen  [BOGE]
+;    40 Holz  [HOLZ]
+;  Talente:
+;    Bogenschiessen [BOGE] 1 (Anfaenger)
+;    Holzfaellen [HOLZ] 5 (Meister)
+@produziere HOLZ
+
+; + Gebaeude [3] : Bauernhof, Groesse 100/100.
+
+Einheit 4761
+;Bauern (4761)
+;  Flags:
+;    besteuert selbststaendig
+;    haelt Stellung
+;    kaempft hinten
+;    kaempft nicht
+;    offenbart Partei
+;    versorgt andere
+;  Rasse:
+;    10 Halblinge  [HALB]
+;  Waren:
+;    252 Silber  [SILB]
+;    10 Armbrueste  [ARMB]
+;    48 Getreide  [GETR]
+;  Talente:
+;    Armbrustschiessen [ARMB] 4 (Veteran,1 Xp)
+;    Landwirtschaft [LAWI] 5 (Meister)
+@;;;*Bauern:
+@produziere GETR
+
+;*** Tundra (31,73,Rorqual) in Epala ***
+
+Einheit 1463
+;Einzelkaempfer (1463)
+;  Flags:
+;    auf Wache
+;    besteuert selbststaendig
+;    erhaelt keine Unterstuetzung
+;    haelt Stellung
+;    offenbart Partei
+;    versorgt andere
+;  Rasse:
+;    1 Drakon  [DRAK]
+;  Waren:
+;    400 Silber  [SILB]
+;    1 Pferd  [PFER]
+;    1 Speer  [SPEE]
+;  Talente:
+;    Infanterie [INFA] 1 (Anfaenger)
+;    Panzerung [PANZ] 4 (Veteran)
+;    Speerkampf [SPKA] 5 (Profi,1 Xp)
+@;Nixtun
+
+;*** Tundra (30,74,Rorqual) in Epala, dort liegt Chaora [Siedlung] ***
+
+Einheit 1825
+;Sven-Jonas Trontje (1825)
+;  Flags:
+;    haelt Stellung
+;    kaempft hinten
+;    kaempft nicht
+;    offenbart Partei
+;    versorgt andere
+;  Rasse:
+;    1 Anfuehrer  [ANFU]
+;  Waren:
+;    1 Fliegender Teppich  [FLTE]
+;    1 Portal  [PORT]
+;  Talente:
+;    Energie [ENER] 4 (Veteran,1 Xp)
+;    Geist [GEIS] 5 (Meister)
+;    Materie [MATE] 3 (Erfahren,1 Xp)
+;    Kunde der Artefakte [ARTE] 3 (Erfahren)
+;    Kunde der Daemonen [DAEM] 3 (Erfahren,1 Xp)
+;    Daemonen bannen [DBAN] 3 (Erfahren)
+;    Dimensionskunde [DIMK] 3 (Erfahren)
+;    Portal erschaffen [EPOR] 3 (Erfahren)
+;    Fernsicht [FERN] 3 (Erfahren,1 Xp)
+;    Feuerball [FEUE] 3 (Erfahren)
+;    Aura der Furcht [FURC] 1 (Anfaenger)
+;    Instabiles Weltentor erschaffen [IWER] 2 (Meister)
+;    Magische Heilung [MHEI] 2 (Ausgebildet,1 Xp)
+;    Kunde der Natur [NATU] 2 (Ausgebildet,1 Xp)
+;    Nekromantie [NEKR] 1 (Anfaenger)
+;    Portalkunde [PORT] 3 (Erfahren)
+;    Teleportation [TELE] 3 (Erfahren,1 Xp)
+;    Unterhaltung [UNTE] 2 (Ausgebildet,2 Xp)
+;    Wahrnehmung [WAHR] 3 (Erfahren)
+;    Wetterkunde [WETT] 3 (Erfahren)
+;    Winde beherrschen [WIND] 3 (Erfahren)
+;    Waffen verzaubern [WVER] 2 (Ausgebildet)
+;  Kann lernen:
+;    Kunde der Daemonen [DAEM]
+;    Dimensionstor erschaffen [EDIM]
+;    Erdbeben [ERDB]
+;    Energieschild [ESLD]
+;    Stab des Feuers erschaffen [ESTF]
+;    Magischen Teppich erschaffen [ETEP]
+;    Feuerball [FEUE]
+;    Gedankenlesen [GEDA]
+;    Kraftschild [KSLD]
+;    Magische Heilung [MHEI]
+;    Mentalschild [MSLD]
+;    Kunde der Natur [NATU]
+;    Nekromantie [NEKR]
+;    Phantasmen [PHAN]
+;    Ruestungen verzaubern [RVER]
+;    Skelette beschwoeren [SKBE]
+;    Sturm rufen [STRU]
+;    Teufel beschwoeren [TFBE]
+;    Untote bannen [UBAN]
+;    Kunde der Voegel [VKUN]
+;    Wetter beruhigen [WEBE]
+;    Wirbelsturm rufen [WIRU]
+;    Kunde der Woelfe [WKUN]
+;    Waffen verzaubern [WVER]
+@;ZAUBERE Dimensionskunde DIMENSIONSTOR 117 EINHEITEN 1825
+@;ZAUBERE TELEPORTATION REGION 30 36 6
+@behalte 1 FLTE
+@behalte 1 PORT
+@behalte alles SILB
+@lerne MHEI
+@;ZAUBERE Portalkunde 1823 EINHEITEN 7497
+
+Einheit 3331
+;Priester Orjanthar (3331)
+;  Flags:
+;    besteuert selbststaendig
+;    haelt Stellung
+;    kaempft hinten
+;    kaempft nicht
+;    offenbart Partei
+;    versorgt andere
+;  Rasse:
+;    1 Drakon  [DRAK]
+;  Waren:
+;    1 Pferd  [PFER]
+;    1 Speer  [SPEE]
+;  Talente:
+;    Jagen [JAGD] 5 (Meister)
+;    Panzerung [PANZ] 4 (Veteran)
+;    Speerkampf [SPKA] 6 (Spezialist,2 Xp)
+;    Taktik [TAKT] 1 (Anfaenger)
+@;
+@lerne PANZ
+
+Einheit 1537
+;Jagdtrupp (1537)
+;  Flags:
+;    auf Wache
+;    besteuert selbststaendig
+;    haelt Stellung
+;    kaempft hinten
+;    offenbart Partei
+;    versorgt andere
+;  Rasse:
+;    200 Drakons  [DRAK]
+;  Waren:
+;    200 Boegen  [BOGE]
+;    1 Fisch  [FISC]
+;  Talente:
+;    Bogenschiessen [BOGE] 8 (Elite)
+;    Panzerung [PANZ] 2 (Ausgebildet,4 Xp)
+@;;;Horde
+@behalte 200 BOGE
+@LERNE PANZ
+
+Einheit 2360
+;Einzelkaeempfer (2360)
+;  Flags:
+;    auf Wache
+;    erhaelt keine Unterstuetzung
+;    haelt Stellung
+;    offenbart Partei
+;  Rasse:
+;    1 Drakon  [DRAK]
+;  Waren:
+;    7119 Silber  [SILB]
+;    678 Pferde  [PFER]
+;    1 Speer  [SPEE]
+;  Talente:
+;    Panzerung [PANZ] 3 (Erfahren,3 Xp)
+;    Speerkampf [SPKA] 5 (Profi,1 Xp)
+
+Einheit 2231
+;Krashtyn, Leitwolf von Epala (2231)
+;  Flags:
+;    haelt Stellung
+;    kaempft hinten
+;    kaempft nicht
+;    offenbart Partei
+;    versorgt andere
+;  Rasse:
+;    1 Drakon  [DRAK]
+;  Waren:
+;    24856 Silber  [SILB]
+;    1 Bogen  [BOGE]
+;    1 Mithrilruestung  [MPAN]
+;    1 Schlachtross  [SROS]
+;  Talente:
+;    Bogenschiessen [BOGE] 8 (Elite,3 Xp)
+;    Taktik [TAKT] 2 (Ausgebildet)
+@BEHALTE ALLES SILB
+
+Einheit 594
+;Bote (594)
+;  Flags:
+;    besteuert selbststaendig
+;    haelt Stellung
+;    kaempft nicht
+;    offenbart Partei
+;  Rasse:
+;    1 Mensch  [MENS]
+;  Waren:
+;    24 Silber  [SILB]
+;    1 Kettenruestung  [KETT]
+;    1 Rundschild  [RSCH]
+;    1 Speer  [SPEE]
+;  Talente:
+;    Infanterie [INFA] 2 (Ausgebildet,1 Xp)
+;    Speerkampf [SPKA] 6 (Spezialist,1 Xp)
+;    Waldlaeufer [WALA] 4 (Veteran)
+
+;*** Tundra (32,74,Rorqual) in Epala ***
+
+Einheit 3603
+;Einzelkaempfer (3603)
+;  Flags:
+;    auf Wache
+;    besteuert selbststaendig
+;    erhaelt keine Unterstuetzung
+;    haelt Stellung
+;    kaempft hinten
+;    offenbart Partei
+;  Rasse:
+;    1 Drakon  [DRAK]
+;  Waren:
+;    200 Silber  [SILB]
+;    1 Pferd  [PFER]
+;    1 Speer  [SPEE]
+;  Talente:
+;    Panzerung [PANZ] 2 (Ausgebildet,2 Xp)
+;    Speerkampf [SPKA] 5 (Profi,1 Xp)
+@;Nixtun
+
+;*** Tundra (31,75,Rorqual) in Epala ***
+
+Einheit 3450
+;Einzelkaempfer (3450)
+;  Flags:
+;    auf Wache
+;    besteuert selbststaendig
+;    erhaelt keine Unterstuetzung
+;    haelt Stellung
+;    kaempft hinten
+;    offenbart Partei
+;  Rasse:
+;    1 Drakon  [DRAK]
+;  Waren:
+;    420 Silber  [SILB]
+;    1 Pferd  [PFER]
+;    1 Speer  [SPEE]
+;  Talente:
+;    Panzerung [PANZ] 2 (Ausgebildet,2 Xp)
+;    Speerkampf [SPKA] 5 (Profi,1 Xp)
+@;Nixtun
+
+#ende
