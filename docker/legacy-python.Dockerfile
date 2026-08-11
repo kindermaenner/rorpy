@@ -8,10 +8,10 @@ RUN apt-get update && apt-get install -y \
 
 ARG PYVER
 
-# Alte Python-Version herunterladen und bauen
-RUN wget http://github.com/kindermaenner/rorpy/releases/download/legacy-python-src/python-${PYVER}.tgz && \
-    tar xzf python-${PYVER}.tgz && \
-    cd python-${PYVER} && \
+COPY Python-${PYVER}.tgz .
+
+RUN tar xzf Python-${PYVER}.tgz && \
+    cd Python-${PYVER} && \
     ./configure --prefix=/usr/local/python-${PYVER} && \
     make && \
     make install
