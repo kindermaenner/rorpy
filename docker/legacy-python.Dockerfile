@@ -1,9 +1,12 @@
-FROM vintagedev/debian-lenny
+FROM debian/eol:etch
 
 RUN apt-get update && apt-get install -y \
     build-essential \
     wget \
-    libssl-dev
+    libssl-dev \
+    zlib1g-dev
+
+ARG PYVER
 
 # Alte Python-Version herunterladen und bauen
 RUN wget https://www.python.org/ftp/python/${PYVER}/Python-${PYVER}.tgz && \
