@@ -1,12 +1,9 @@
-FROM ubuntu:20.04
-
-ARG PYVER
+FROM vintagedev/debian-lenny
 
 RUN apt-get update && apt-get install -y \
-    wget \
     build-essential \
-    libssl-dev \
-    zlib1g-dev
+    wget \
+    libssl-dev
 
 # Alte Python-Version herunterladen und bauen
 RUN wget https://www.python.org/ftp/python/${PYVER}/Python-${PYVER}.tgz && \
