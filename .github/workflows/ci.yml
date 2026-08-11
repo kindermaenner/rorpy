@@ -29,6 +29,7 @@ jobs:
         if: steps.pull.outcome == 'failure'
         run: |
           docker build \
+            -f docker/legacy-python.Dockerfile \
             --build-arg PYVER=${{ matrix.python_version }} \
             -t ghcr.io/${{ github.repository_owner }}/legacy-python:${{ matrix.python_version }} .
 
