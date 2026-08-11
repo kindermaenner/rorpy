@@ -21,8 +21,9 @@ jobs:
 
       - name: Try pulling existing image
         id: pull
+        continue-on-error: true
         run: |
-          docker pull ghcr.io/${{ github.repository_owner }}/legacy-python:${{ matrix.python_version }} || exit 0
+          docker pull ghcr.io/${{ github.repository_owner }}/legacy-python:${{ matrix.python_version }}
 
       - name: Build image if pull failed
         if: steps.pull.outcome == 'failure'
