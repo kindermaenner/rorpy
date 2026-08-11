@@ -8,7 +8,7 @@ RUN apt-get update && apt-get install -y \
 
 ARG PYVER
 
-COPY Python-${PYVER}.tgz .
+COPY docker/Python-${PYVER}.tgz .
 
 RUN tar xzf Python-${PYVER}.tgz && \
     cd Python-${PYVER} && \
